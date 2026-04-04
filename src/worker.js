@@ -3616,12 +3616,24 @@ async function handleAlerts(request, env) {
 }
 
 // ─── 3. Site Audit ──────────────────────────────────────────────────
+function isPrivateURL(urlStr) {
+  try {
+    const u = new URL(urlStr); const h = u.hostname;
+    if (h === 'localhost' || h === '127.0.0.1' || h === '0.0.0.0' || h === '::1') return true;
+    if (h.startsWith('10.') || h.startsWith('192.168.')) return true;
+    if (h.startsWith('172.')) { const s = parseInt(h.split('.')[1]); if (s >= 16 && s <= 31) return true; }
+    if (u.protocol !== 'http:' && u.protocol !== 'https:') return true;
+    return false;
+  } catch { return true; }
+}
+
 async function handleSiteAudit(request, env) {
   if (!dbV4Ready) { await initV4Tables(env.DB); dbV4Ready = true; }
   const url = new URL(request.url);
   const targetUrl = url.searchParams.get('url');
 
   if (!targetUrl) return Response.json({ error: 'url parameter required' }, { status: 400 });
+  if (isPrivateURL(targetUrl)) return Response.json({ error: 'Private/internal URLs not allowed' }, { status: 403 });
 
   // Validate URL
   let parsed;
@@ -3741,6 +3753,7 @@ async function handleExtract(request, env) {
   const targetUrl = reqUrl.searchParams.get('url');
 
   if (!targetUrl) return Response.json({ error: 'url parameter required' }, { status: 400 });
+  if (isPrivateURL(targetUrl)) return Response.json({ error: 'Private/internal URLs not allowed' }, { status: 403 });
 
   let parsed;
   try { parsed = new URL(targetUrl); } catch {

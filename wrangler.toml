@@ -1,0 +1,15 @@
+name = "roadview-blackroad"
+main = "src/worker.js"
+compatibility_date = "2026-03-31"
+
+[[routes]]
+pattern = "search.blackroad.io/*"
+zone_name = "blackroad.io"
+
+[ai]
+binding = "AI"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "road-search"
+database_id = "cfd5c94b-6742-4daf-ac13-59c859be3a8f"

@@ -1,15 +1,18 @@
 name = "roadview-blackroad"
-main = "src/worker.js"
-compatibility_date = "2026-03-31"
-
+main = "src/index.ts"
+compatibility_date = "2025-01-01"
+compatibility_flags = ["nodejs_compat"]
 [[routes]]
-pattern = "search.blackroad.io/*"
+pattern = "roadview.blackroad.io/*"
 zone_name = "blackroad.io"
-
-[ai]
-binding = "AI"
-
+[vars]
+ENVIRONMENT = "production"
+SERVICE_NAME = "roadview"
+VERSION = "2.0.0"
+[[kv_namespaces]]
+binding = "STORE"
+id = "e85347e6e58740bcba4221d1d921f735"
 [[d1_databases]]
 binding = "DB"
-database_name = "road-search"
-database_id = "cfd5c94b-6742-4daf-ac13-59c859be3a8f"
+database_name = "blackroad-os-main"
+database_id = "e2c6dcd9-c21a-48ac-8807-7b3a6881c4f7"

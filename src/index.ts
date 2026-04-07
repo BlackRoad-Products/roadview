@@ -62,7 +62,7 @@ function page(): Response {
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-:root{--bg:#030303;--card:#0a0a0a;--border:#111;--text:#f0f0f0;--sub:#444;--green:#00E676;--grad:linear-gradient(90deg,#00E676,#3E84FF,#FF00D4)}
+:root{--bg:#030303;--card:#0a0a0a;--border:#111;--text:#f0f0f0;--sub:#444;--green:#22c55e;--grad:linear-gradient(90deg,#22c55e,#3E84FF,#FF00D4)}
 html,body{min-height:100vh;background:var(--bg);color:var(--text);font-family:'Space Grotesk',sans-serif}
 .grad-bar{height:2px;background:var(--grad)}
 .hero{text-align:center;padding:60px 20px 40px}
@@ -71,14 +71,14 @@ h1{font-size:2.5rem;font-weight:700;background:var(--grad);-webkit-background-cl
 .search-wrap{max-width:680px;margin:0 auto;padding:0 20px}
 .search-bar{display:flex;gap:8px;margin-bottom:20px}
 .search-bar input{flex:1;padding:14px 18px;background:var(--card);border:1px solid var(--border);border-radius:10px;color:var(--text);font-family:'Space Grotesk',sans-serif;font-size:1rem;outline:none;transition:border-color .15s}
-.search-bar input:focus{border-color:#00E676}
-.search-bar button{padding:14px 22px;background:#00E676;color:#000;border:none;border-radius:10px;cursor:pointer;font-weight:700;font-size:.9rem}
+.search-bar input:focus{border-color:#22c55e}
+.search-bar button{padding:14px 22px;background:#22c55e;color:#000;border:none;border-radius:10px;cursor:pointer;font-weight:700;font-size:.9rem}
 .sources{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:24px}
 .src{padding:4px 12px;background:var(--card);border:1px solid var(--border);border-radius:20px;font-size:.68rem;font-family:'JetBrains Mono',monospace;color:var(--sub)}
 .results{display:flex;flex-direction:column;gap:10px}
 .result{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:16px;transition:border-color .15s}
 .result:hover{border-color:#1a1a1a}
-.result-source{font-size:.65rem;font-family:'JetBrains Mono',monospace;color:#00E676;text-transform:uppercase;margin-bottom:5px}
+.result-source{font-size:.65rem;font-family:'JetBrains Mono',monospace;color:#22c55e;text-transform:uppercase;margin-bottom:5px}
 .result-title{font-weight:600;font-size:.95rem;margin-bottom:5px}
 .result-excerpt{font-size:.78rem;color:var(--sub);line-height:1.5}
 .result-url{font-size:.65rem;font-family:'JetBrains Mono',monospace;color:#333;margin-top:6px}

@@ -50,8 +50,15 @@ async function search(env: Env, q: string): Promise<{source:string;title:string;
 
 function page(): Response {
   const html=`<!DOCTYPE html><html lang="en"><head>
-<meta charset="UTF-8"><title>RoadView — BlackRoad Search</title>
-<meta name="description" content="Search across BlackRoad OS. Codex, signals, roadlog, math — all in one place.">
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RoadView — BlackRoad Search</title>
+<meta name="description" content="Search across BlackRoad OS. Codex, signals, roadlog, math pipeline — all in one place.">
+<link rel="canonical" href="https://roadview.blackroad.io/">
+<meta property="og:title" content="RoadView — BlackRoad Search">
+<meta property="og:description" content="Search across BlackRoad OS. Codex, signals, roadlog, math pipeline — all in one place.">
+<meta property="og:url" content="https://roadview.blackroad.io/">
+<meta property="og:type" content="website">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"RoadView","url":"https://roadview.blackroad.io/","description":"Search across BlackRoad OS. Codex, signals, roadlog, math pipeline — all in one place.","applicationCategory":"WebApplication","publisher":{"@type":"Organization","name":"BlackRoad OS, Inc.","url":"https://blackroad.io"}}</script>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}

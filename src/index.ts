@@ -78,7 +78,7 @@ h1{font-size:2.5rem;font-weight:700;background:var(--grad);-webkit-background-cl
 .results{display:flex;flex-direction:column;gap:10px}
 .result{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:16px;transition:border-color .15s}
 .result:hover{border-color:#1a1a1a}
-.result-source{font-size:.65rem;font-family:'JetBrains Mono',monospace;color:#22c55e;text-transform:uppercase;margin-bottom:5px}
+.result-source{font-size:.65rem;font-family:'JetBrains Mono',monospace;color:#888;text-transform:uppercase;margin-bottom:5px}
 .result-title{font-weight:600;font-size:.95rem;margin-bottom:5px}
 .result-excerpt{font-size:.78rem;color:var(--sub);line-height:1.5}
 .result-url{font-size:.65rem;font-family:'JetBrains Mono',monospace;color:#333;margin-top:6px}

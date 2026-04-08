@@ -1099,6 +1099,7 @@ const SEARCH_HTML = `<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://images.blackroad.io/brand/brand.css">
 <title>RoadView — Verified Search Engine — BlackRoad OS</title>
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#0a0a0a">
@@ -4667,6 +4668,7 @@ function renderExplorePage(topic) {
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://images.blackroad.io/brand/brand.css">
 <title>${topic.name} — RoadView Search Results</title>
 <meta name="description" content="${topic.description}">
 <meta name="robots" content="index, follow">
@@ -4764,6 +4766,7 @@ function renderExploreIndex() {
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://images.blackroad.io/brand/brand.css">
 <title>Popular Searches — RoadView — BlackRoad OS</title>
 <meta name="description" content="Browse ${EXPLORE_TOPICS.length} popular search topics across AI, coding, math, education, productivity, security, creative tools, and business on RoadView.">
 <meta name="robots" content="index, follow">

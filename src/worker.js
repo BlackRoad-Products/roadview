@@ -5181,6 +5181,36 @@ export default {
           break;
         }
 
+        // ─── Federated Search (local + AI) ───
+        case '/api/search/federated': {
+          const q = url.searchParams.get('q') || '';
+          if (!q) { response = Response.json({error:'q param required'},{status:400}); break; }
+          // Local D1 search
+          let local = [];
+          try {
+            const r = await env.DB.prepare("SELECT url, title, snippet, score FROM search_results_v4 WHERE query_id = (SELECT id FROM search_log ORDER BY created_at DESC LIMIT 1) ORDER BY score DESC LIMIT 10").all();
+            local = r.results || [];
+          } catch {
+            try {
+              const r = await env.DB.prepare("SELECT url, title, description as snippet FROM pages WHERE title LIKE ? OR description LIKE ? LIMIT 10").bind(`%${q}%`,`%${q}%`).all();
+              local = r.results || [];
+            } catch {}
+          }
+          // If few local results, ask Lucidia for an AI answer
+          let aiAnswer = null;
+          if (local.length < 3) {
+            try {
+              const ar = await env.AI.run('@cf/meta/llama-3.1-8b-instruct', {
+                messages: [{role:'system',content:'You are a search engine assistant. Answer concisely in 2-3 sentences.'},{role:'user',content:q}],
+                max_tokens: 200
+              });
+              aiAnswer = ar.response || null;
+            } catch {}
+          }
+          response = Response.json({query:q, local_results:local, ai_answer:aiAnswer, federated:true, total:local.length});
+          break;
+        }
+
         default: {
           const accept = request.headers.get('Accept') || '';
           if (accept.includes('application/json') && !accept.includes('text/html')) {

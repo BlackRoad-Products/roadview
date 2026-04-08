@@ -45,14 +45,14 @@ const SEED_PAGES = [
   { url: 'https://blackroadquantum.store', title: 'BlackRoad Quantum — Digital Store', description: 'Software, models, and tools for sovereign infrastructure. OS tiers, downloadable models, and ecosystem tools.', domain: 'blackroadquantum.store', category: 'site', tags: 'store,software,models,download,digital,tools', image: 'https://images.blackroad.io/pixel-art/road-logo.png', content: 'BlackRoad Quantum Digital Store. BlackRoad OS tiers (Free, Pro, Enterprise), 27 downloadable AI models, 15 templates, 6 tools. Software and digital assets for sovereign AI infrastructure.' },
 
   // ── Key Subdomains / Apps ──
-  { url: 'https://chat.blackroad.io', title: 'BlackRoad Chat — AI Conversations', description: 'Chat with BlackRoad\'s AI agents. 15+ Ollama models, streaming responses, multiple conversation modes.', domain: 'blackroad.io', category: 'app', tags: 'chat,ai,ollama,conversation,streaming,models', image: 'https://images.blackroad.io/pixel-art/road-logo.png', content: 'BlackRoad Chat connects you to 15+ Ollama models running across the Pi fleet. Streaming responses, system prompts, conversation history. Models include Mistral, Llama, DeepSeek, Qwen, and custom CECE models.' },
+  { url: 'https://roadtrip.blackroad.io', title: 'BlackRoad Chat — AI Conversations', description: 'Chat with BlackRoad\'s AI agents. 15+ Ollama models, streaming responses, multiple conversation modes.', domain: 'blackroad.io', category: 'app', tags: 'chat,ai,ollama,conversation,streaming,models', image: 'https://images.blackroad.io/pixel-art/road-logo.png', content: 'BlackRoad Chat connects you to 15+ Ollama models running across the Pi fleet. Streaming responses, system prompts, conversation history. Models include Mistral, Llama, DeepSeek, Qwen, and custom CECE models.' },
   { url: 'https://stripe.blackroad.io', title: 'BlackRoad Payments — Stripe Integration', description: 'Payment processing for BlackRoad OS subscriptions. Checkout, billing portal, and webhook processing via Stripe.', domain: 'blackroad.io', category: 'api', tags: 'stripe,payments,checkout,billing,subscription', image: 'https://images.blackroad.io/pixel-art/road-logo.png', content: '8 products: Operator (free), Pro ($29/mo), Sovereign ($199/mo), Enterprise (custom), plus 4 add-ons (Lucidia Enhanced, RoadAuth, Context Bridge, Knowledge Hub). Stripe Checkout Sessions, billing portal, webhook processing.' },
   { url: 'https://auth.blackroad.io', title: 'BlackRoad Auth — Sovereign Authentication API', description: 'Zero-dependency authentication. D1-backed, PBKDF2 hashing, JWT sessions, 42+ users.', domain: 'blackroad.io', category: 'api', tags: 'auth,api,jwt,d1,signup,signin,sessions', image: 'https://images.blackroad.io/pixel-art/road-logo.png', content: 'Sovereign auth API. Signup, signin, session management, user profiles. D1 database backend, PBKDF2 password hashing with Web Crypto, JWT tokens with HMAC-SHA256. 42 users, 52 active sessions.' },
   { url: 'https://brand.blackroad.io', title: 'BlackRoad — Brand Style Guide', description: 'Official design system. Colors, typography, gradients, logo usage, spacing. Hot Pink, Amber, Violet, Electric Blue.', domain: 'blackroad.io', category: 'docs', tags: 'brand,design,style,colors,typography,logo,guide', image: 'https://images.blackroad.io/pixel-art/road-logo.png', content: 'BlackRoad Brand Style Guide. Colors: Hot Pink #FF1D6C, Amber #F5A623, Violet #9C27B0, Electric Blue #2979FF. Typography: Space Grotesk, JetBrains Mono, Inter. Golden ratio spacing. Black background, white text, gradient shapes.' },
   { url: 'https://studio.blackroad.io', title: 'BlackRoad Studio — Animated Video Generator', description: 'AI-powered animated video creation. Voice-first, 16+ characters, up to 40 minutes. Next.js 15 + Remotion 4.', domain: 'blackroad.io', category: 'app', tags: 'studio,video,animation,remotion,ai,characters,voice', image: 'https://images.blackroad.io/pixel-art/road-logo.png', content: 'BlackRoad Studio is a full animated video platform. Next.js 15 + Remotion 4 + Zustand 5. AI Worker with SDXL image generation, Llama 3.1 text, MeloTTS voice synthesis. 16+ characters, voice-first workflow, up to 40 minutes of rendered video.' },
   { url: 'https://status.blackroad.io', title: 'BlackRoad — System Status', description: 'Live infrastructure status dashboard. 5 Pi nodes, service health, uptime monitoring.', domain: 'blackroad.io', category: 'app', tags: 'status,monitoring,health,uptime,fleet,dashboard', image: 'https://images.blackroad.io/pixel-art/road-logo.png', content: 'BlackRoad System Status dashboard. Live monitoring of 5 Pi nodes: Alice (gateway), Cecilia (AI/edge), Octavia (infrastructure), Aria (orchestration), Lucidia (memory). Service health, port checks, and fleet telemetry via fleet-api Worker.' },
-  { url: 'https://search.blackroad.io', title: 'RoadSearch — BlackRoad Search Engine', description: 'Sovereign search engine. D1 full-text search, AI-powered answers, autocomplete, query analytics. Searches all BlackRoad domains.', domain: 'blackroad.io', category: 'app', tags: 'search,roadsearch,fts5,d1,ollama,ai,answers', image: 'https://images.blackroad.io/pixel-art/road-logo.png', content: 'RoadSearch is BlackRoad\'s sovereign search engine. D1 FTS5 full-text index, AI-powered answers, smart summaries, autocomplete suggestions, query analytics. Searches across all 20 BlackRoad domains and key subdomains.' },
-  { url: 'https://pay.blackroad.io', title: 'RoadPay — BlackRoad Billing', description: 'Own billing system. D1 tollbooth, 4 plans + 4 add-ons. Stripe as card charger only.', domain: 'blackroad.io', category: 'app', tags: 'pay,billing,roadpay,tollbooth,stripe,plans', image: 'https://images.blackroad.io/pixel-art/road-logo.png', content: 'RoadPay is BlackRoad\'s own billing system. D1 tollbooth database, 4 subscription plans (Operator, Pro, Sovereign, Enterprise) + 4 add-ons. Stripe serves only as the card charger — all billing logic is sovereign.' },
+  { url: 'https://roadview.blackroad.io', title: 'RoadSearch — BlackRoad Search Engine', description: 'Sovereign search engine. D1 full-text search, AI-powered answers, autocomplete, query analytics. Searches all BlackRoad domains.', domain: 'blackroad.io', category: 'app', tags: 'search,roadsearch,fts5,d1,ollama,ai,answers', image: 'https://images.blackroad.io/pixel-art/road-logo.png', content: 'RoadSearch is BlackRoad\'s sovereign search engine. D1 FTS5 full-text index, AI-powered answers, smart summaries, autocomplete suggestions, query analytics. Searches across all 20 BlackRoad domains and key subdomains.' },
+  { url: 'https://roadcoin.blackroad.io', title: 'RoadPay — BlackRoad Billing', description: 'Own billing system. D1 tollbooth, 4 plans + 4 add-ons. Stripe as card charger only.', domain: 'blackroad.io', category: 'app', tags: 'pay,billing,roadpay,tollbooth,stripe,plans', image: 'https://images.blackroad.io/pixel-art/road-logo.png', content: 'RoadPay is BlackRoad\'s own billing system. D1 tollbooth database, 4 subscription plans (Operator, Pro, Sovereign, Enterprise) + 4 add-ons. Stripe serves only as the card charger — all billing logic is sovereign.' },
   { url: 'https://hq.blackroad.io', title: 'Pixel HQ — BlackRoad Metaverse', description: '14-floor virtual headquarters with pixel art. Agent assignments per floor, from Rooftop to Gym basement.', domain: 'blackroad.io', category: 'app', tags: 'hq,metaverse,pixel,virtual,headquarters,floors', image: 'https://images.blackroad.io/pixel-art/road-logo.png', content: 'Pixel HQ is BlackRoad\'s virtual headquarters. 14 floors from Rooftop Lounge to Gym Basement. Each floor has pixel art scenes and agent assignments. 50 pixel art assets on R2. Cloudflare Worker at hq-blackroad.' },
   { url: 'https://images.blackroad.io', title: 'BlackRoad Images — CDN & Asset Storage', description: 'R2-backed image CDN. BR road logo (22 PNGs + motion video), pixel art, brand assets across 30 websites.', domain: 'blackroad.io', category: 'api', tags: 'images,cdn,r2,assets,logo,pixel', image: 'https://images.blackroad.io/pixel-art/road-logo.png', content: 'BlackRoad Images CDN backed by Cloudflare R2. Serves BR road logo in 22 PNG variants plus motion video, 50 pixel art assets for HQ, brand assets. Deployed across 30 websites in the ecosystem.' },
   { url: 'https://analytics.blackroad.io', title: 'BlackRoad Analytics — Traffic & Usage', description: 'Sovereign analytics. D1-backed, no third-party tracking. Page views, unique visitors, referrers across all domains.', domain: 'blackroad.io', category: 'api', tags: 'analytics,tracking,stats,d1,privacy,sovereign', image: 'https://images.blackroad.io/pixel-art/road-logo.png', content: 'Sovereign analytics Worker backed by D1. Tracks page views, unique visitors, referrers, and popular pages across all BlackRoad domains. Zero third-party trackers. Privacy-first design.' },
@@ -1109,7 +1109,8 @@ const SEARCH_HTML = `<!DOCTYPE html>
 <meta property="og:image" content="https://images.blackroad.io/pixel-art/road-logo.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://images.blackroad.io/pixel-art/road-logo.png">
-<link rel="canonical" href="https://search.blackroad.io/">
+<link rel="canonical" href="https://roadview.blackroad.io/">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"RoadView","url":"https://roadview.blackroad.io/","description":"Privacy-first verified search engine. Every result verified against live sources. No tracking, no ads.","applicationCategory":"SearchApplication","operatingSystem":"Web","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Organization","name":"BlackRoad OS, Inc.","url":"https://blackroad.io"}}</script>
 <link rel="dns-prefetch" href="https://blackroad.io">
 <meta name="description" content="BlackRoad OS verified search engine. Every stat verified against live sources. No fake news. Search across all 20 BlackRoad domains.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#x1F50D;</text></svg>">
@@ -1377,7 +1378,7 @@ a:hover{color:var(--link-hover)}
 }
 </style>
 </head>
-<body><style id="br-nav-style">#br-nav{position:fixed;top:0;left:0;right:0;z-index:9999;background:rgba(0,0,0,0.92);backdrop-filter:blur(12px);border-bottom:1px solid #1a1a1a;font-family:'Space Grotesk',-apple-system,sans-serif}#br-nav .ni{max-width:1200px;margin:0 auto;padding:0 20px;height:48px;display:flex;align-items:center;justify-content:space-between}#br-nav .nl{display:flex;align-items:center;gap:12px}#br-nav .nb{color:#666;font-size:12px;padding:6px 8px;border-radius:6px;display:flex;align-items:center;cursor:pointer;border:none;background:none;transition:color .15s}#br-nav .nb:hover{color:#f5f5f5}#br-nav .nh{text-decoration:none;display:flex;align-items:center;gap:8px}#br-nav .nm{display:flex;gap:2px}#br-nav .nm span{width:6px;height:6px;border-radius:50%}#br-nav .nt{color:#f5f5f5;font-weight:600;font-size:14px}#br-nav .ns{color:#333;font-size:14px}#br-nav .np{color:#999;font-size:13px}#br-nav .nk{display:flex;align-items:center;gap:4px;overflow-x:auto;scrollbar-width:none}#br-nav .nk::-webkit-scrollbar{display:none}#br-nav .nk a{color:#888;text-decoration:none;font-size:12px;padding:6px 10px;border-radius:6px;white-space:nowrap;transition:color .15s,background .15s}#br-nav .nk a:hover{color:#f5f5f5;background:#111}#br-nav .nk a.ac{color:#f5f5f5;background:#1a1a1a}#br-nav .mm{display:none;background:none;border:none;color:#888;font-size:20px;cursor:pointer;padding:6px}#br-dd{display:none;position:fixed;top:48px;left:0;right:0;background:rgba(0,0,0,0.96);backdrop-filter:blur(12px);border-bottom:1px solid #1a1a1a;z-index:9998;padding:12px 20px}#br-dd.open{display:flex;flex-wrap:wrap;gap:4px}#br-dd a{color:#888;text-decoration:none;font-size:13px;padding:8px 14px;border-radius:6px;transition:color .15s,background .15s}#br-dd a:hover,#br-dd a.ac{color:#f5f5f5;background:#111}body{padding-top:48px!important}@media(max-width:768px){#br-nav .nk{display:none}#br-nav .mm{display:block}}</style><nav id="br-nav"><div class="ni"><div class="nl"><button class="nb" onclick="history.length>1?history.back():location.href='https://blackroad.io'" title="Back">&larr;</button><a href="https://blackroad.io" class="nh"><div class="nm"><span style="background:#FF6B2B"></span><span style="background:#FF2255"></span><span style="background:#CC00AA"></span><span style="background:#8844FF"></span><span style="background:#4488FF"></span><span style="background:#00D4FF"></span></div><span class="nt">BlackRoad</span></a><span class="ns">/</span><span class="np">Search</span></div><div class="nk"><a href="https://blackroad.io">Home</a><a href="https://chat.blackroad.io">Chat</a><a href="https://search.blackroad.io" class="ac">Search</a><a href="https://tutor.blackroad.io">Tutor</a><a href="https://pay.blackroad.io">Pay</a><a href="https://canvas.blackroad.io">Canvas</a><a href="https://cadence.blackroad.io">Cadence</a><a href="https://video.blackroad.io">Video</a><a href="https://radio.blackroad.io">Radio</a><a href="https://game.blackroad.io">Game</a><a href="https://roundtrip.blackroad.io">Agents</a><a href="https://roadcode.blackroad.io">RoadCode</a><a href="https://hq.blackroad.io">HQ</a><a href="https://app.blackroad.io">Dashboard</a></div><button class="mm" onclick="document.getElementById('br-dd').classList.toggle('open')">&#9776;</button></div></nav><div id="br-dd"><a href="https://blackroad.io">Home</a><a href="https://chat.blackroad.io">Chat</a><a href="https://search.blackroad.io" class="ac">Search</a><a href="https://tutor.blackroad.io">Tutor</a><a href="https://pay.blackroad.io">Pay</a><a href="https://canvas.blackroad.io">Canvas</a><a href="https://cadence.blackroad.io">Cadence</a><a href="https://video.blackroad.io">Video</a><a href="https://radio.blackroad.io">Radio</a><a href="https://game.blackroad.io">Game</a><a href="https://roundtrip.blackroad.io">Agents</a><a href="https://roadcode.blackroad.io">RoadCode</a><a href="https://hq.blackroad.io">HQ</a><a href="https://app.blackroad.io">Dashboard</a></div><script>document.addEventListener('click',function(e){var d=document.getElementById('br-dd');if(d&&d.classList.contains('open')&&!e.target.closest('#br-nav')&&!e.target.closest('#br-dd'))d.classList.remove('open')});</script>
+<body><style id="br-nav-style">#br-nav{position:fixed;top:0;left:0;right:0;z-index:9999;background:rgba(0,0,0,0.92);backdrop-filter:blur(12px);border-bottom:1px solid #1a1a1a;font-family:'Space Grotesk',-apple-system,sans-serif}#br-nav .ni{max-width:1200px;margin:0 auto;padding:0 20px;height:48px;display:flex;align-items:center;justify-content:space-between}#br-nav .nl{display:flex;align-items:center;gap:12px}#br-nav .nb{color:#666;font-size:12px;padding:6px 8px;border-radius:6px;display:flex;align-items:center;cursor:pointer;border:none;background:none;transition:color .15s}#br-nav .nb:hover{color:#f5f5f5}#br-nav .nh{text-decoration:none;display:flex;align-items:center;gap:8px}#br-nav .nm{display:flex;gap:2px}#br-nav .nm span{width:6px;height:6px;border-radius:50%}#br-nav .nt{color:#f5f5f5;font-weight:600;font-size:14px}#br-nav .ns{color:#333;font-size:14px}#br-nav .np{color:#999;font-size:13px}#br-nav .nk{display:flex;align-items:center;gap:4px;overflow-x:auto;scrollbar-width:none}#br-nav .nk::-webkit-scrollbar{display:none}#br-nav .nk a{color:#888;text-decoration:none;font-size:12px;padding:6px 10px;border-radius:6px;white-space:nowrap;transition:color .15s,background .15s}#br-nav .nk a:hover{color:#f5f5f5;background:#111}#br-nav .nk a.ac{color:#f5f5f5;background:#1a1a1a}#br-nav .mm{display:none;background:none;border:none;color:#888;font-size:20px;cursor:pointer;padding:6px}#br-dd{display:none;position:fixed;top:48px;left:0;right:0;background:rgba(0,0,0,0.96);backdrop-filter:blur(12px);border-bottom:1px solid #1a1a1a;z-index:9998;padding:12px 20px}#br-dd.open{display:flex;flex-wrap:wrap;gap:4px}#br-dd a{color:#888;text-decoration:none;font-size:13px;padding:8px 14px;border-radius:6px;transition:color .15s,background .15s}#br-dd a:hover,#br-dd a.ac{color:#f5f5f5;background:#111}body{padding-top:48px!important}@media(max-width:768px){#br-nav .nk{display:none}#br-nav .mm{display:block}}</style><nav id="br-nav"><div class="ni"><div class="nl"><button class="nb" onclick="history.length>1?history.back():location.href='https://blackroad.io'" title="Back">&larr;</button><a href="https://blackroad.io" class="nh"><div class="nm"><span style="background:#FF6B2B"></span><span style="background:#FF2255"></span><span style="background:#CC00AA"></span><span style="background:#8844FF"></span><span style="background:#4488FF"></span><span style="background:#00D4FF"></span></div><span class="nt">BlackRoad</span></a><span class="ns">/</span><span class="np">Search</span></div><div class="nk"><a href="https://blackroad.io">Home</a><a href="https://roadtrip.blackroad.io">Chat</a><a href="https://roadview.blackroad.io" class="ac">Search</a><a href="https://roadie.blackroad.io">Tutor</a><a href="https://roadcoin.blackroad.io">Pay</a><a href="https://blackboard.blackroad.io">Canvas</a><a href="https://cadence.blackroad.io">Cadence</a><a href="https://video.blackroad.io">Video</a><a href="https://radio.blackroad.io">Radio</a><a href="https://roadworld.blackroad.io">Game</a><a href="https://roundtrip.blackroad.io">Agents</a><a href="https://roadcode.blackroad.io">RoadCode</a><a href="https://hq.blackroad.io">HQ</a><a href="https://app.blackroad.io">Dashboard</a></div><button class="mm" onclick="document.getElementById('br-dd').classList.toggle('open')">&#9776;</button></div></nav><div id="br-dd"><a href="https://blackroad.io">Home</a><a href="https://roadtrip.blackroad.io">Chat</a><a href="https://roadview.blackroad.io" class="ac">Search</a><a href="https://roadie.blackroad.io">Tutor</a><a href="https://roadcoin.blackroad.io">Pay</a><a href="https://blackboard.blackroad.io">Canvas</a><a href="https://cadence.blackroad.io">Cadence</a><a href="https://video.blackroad.io">Video</a><a href="https://radio.blackroad.io">Radio</a><a href="https://roadworld.blackroad.io">Game</a><a href="https://roundtrip.blackroad.io">Agents</a><a href="https://roadcode.blackroad.io">RoadCode</a><a href="https://hq.blackroad.io">HQ</a><a href="https://app.blackroad.io">Dashboard</a></div><script>document.addEventListener('click',function(e){var d=document.getElementById('br-dd');if(d&&d.classList.contains('open')&&!e.target.closest('#br-nav')&&!e.target.closest('#br-dd'))d.classList.remove('open')});</script>
 <div class="app" id="app">
   <div class="hero home" id="hero">
     <div class="logo-wrap" onclick="goHome()">
@@ -1418,12 +1419,12 @@ a:hover{color:var(--link-hover)}
 <div style="font-family:'JetBrains Mono',monospace;font-size:11px;color:#525252;text-transform:uppercase;letter-spacing:0.15em;margin-bottom:16px">BlackRoad Ecosystem</div>
 <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:32px">
 <a href="https://blackroad.io" style="background:#131313;border:1px solid #1a1a1a;border-radius:6px;padding:8px 14px;text-decoration:none;font-family:'Space Grotesk',sans-serif;font-size:13px;color:#737373;font-weight:500">BlackRoad OS</a>
-<a href="https://chat.blackroad.io" style="background:#131313;border:1px solid #1a1a1a;border-radius:6px;padding:8px 14px;text-decoration:none;font-family:'Space Grotesk',sans-serif;font-size:13px;color:#737373;font-weight:500">Chat</a>
-<a href="https://search.blackroad.io" style="background:#131313;border:1px solid #1a1a1a;border-radius:6px;padding:8px 14px;text-decoration:none;font-family:'Space Grotesk',sans-serif;font-size:13px;color:#737373;font-weight:500">Search</a>
-<a href="https://pay.blackroad.io" style="background:#131313;border:1px solid #1a1a1a;border-radius:6px;padding:8px 14px;text-decoration:none;font-family:'Space Grotesk',sans-serif;font-size:13px;color:#737373;font-weight:500">Pay</a>
-<a href="https://tutor.blackroad.io" style="background:#131313;border:1px solid #1a1a1a;border-radius:6px;padding:8px 14px;text-decoration:none;font-family:'Space Grotesk',sans-serif;font-size:13px;color:#737373;font-weight:500">Tutor</a>
+<a href="https://roadtrip.blackroad.io" style="background:#131313;border:1px solid #1a1a1a;border-radius:6px;padding:8px 14px;text-decoration:none;font-family:'Space Grotesk',sans-serif;font-size:13px;color:#737373;font-weight:500">Chat</a>
+<a href="https://roadview.blackroad.io" style="background:#131313;border:1px solid #1a1a1a;border-radius:6px;padding:8px 14px;text-decoration:none;font-family:'Space Grotesk',sans-serif;font-size:13px;color:#737373;font-weight:500">Search</a>
+<a href="https://roadcoin.blackroad.io" style="background:#131313;border:1px solid #1a1a1a;border-radius:6px;padding:8px 14px;text-decoration:none;font-family:'Space Grotesk',sans-serif;font-size:13px;color:#737373;font-weight:500">Pay</a>
+<a href="https://roadie.blackroad.io" style="background:#131313;border:1px solid #1a1a1a;border-radius:6px;padding:8px 14px;text-decoration:none;font-family:'Space Grotesk',sans-serif;font-size:13px;color:#737373;font-weight:500">Tutor</a>
 <a href="https://video.blackroad.io" style="background:#131313;border:1px solid #1a1a1a;border-radius:6px;padding:8px 14px;text-decoration:none;font-family:'Space Grotesk',sans-serif;font-size:13px;color:#737373;font-weight:500">Video</a>
-<a href="https://canvas.blackroad.io" style="background:#131313;border:1px solid #1a1a1a;border-radius:6px;padding:8px 14px;text-decoration:none;font-family:'Space Grotesk',sans-serif;font-size:13px;color:#737373;font-weight:500">Canvas</a>
+<a href="https://blackboard.blackroad.io" style="background:#131313;border:1px solid #1a1a1a;border-radius:6px;padding:8px 14px;text-decoration:none;font-family:'Space Grotesk',sans-serif;font-size:13px;color:#737373;font-weight:500">Canvas</a>
 <a href="https://roundtrip.blackroad.io" style="background:#131313;border:1px solid #1a1a1a;border-radius:6px;padding:8px 14px;text-decoration:none;font-family:'Space Grotesk',sans-serif;font-size:13px;color:#737373;font-weight:500">RoundTrip</a>
 <a href="https://hq.blackroad.io" style="background:#131313;border:1px solid #1a1a1a;border-radius:6px;padding:8px 14px;text-decoration:none;font-family:'Space Grotesk',sans-serif;font-size:13px;color:#737373;font-weight:500">HQ</a>
 <a href="https://git.blackroad.io" style="background:#131313;border:1px solid #1a1a1a;border-radius:6px;padding:8px 14px;text-decoration:none;font-family:'Space Grotesk',sans-serif;font-size:13px;color:#737373;font-weight:500">Git</a>
@@ -1991,7 +1992,7 @@ function renderResults() {
     tags.forEach(t => { html += '<span class="tag">#' + esc(t) + '</span>'; });
     html += '<div class="score-wrap"><div class="score-bar"><div class="score-fill" style="width:' + Math.round(score * 100) + '%"></div></div>'
       + '<span class="score-text">' + Math.round(score * 100) + '%</span></div>';
-    html += '<a href="https://chat.blackroad.io#ask=' + encodeURIComponent(title) + '" target="_blank" rel="noopener" style="font-size:11px;color:var(--text2);opacity:.5;margin-left:8px;text-decoration:none;transition:opacity .15s" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=.5">Ask AI</a>';
+    html += '<a href="https://roadtrip.blackroad.io#ask=' + encodeURIComponent(title) + '" target="_blank" rel="noopener" style="font-size:11px;color:var(--text2);opacity:.5;margin-left:8px;text-decoration:none;transition:opacity .15s" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=.5">Ask AI</a>';
     // Expand/collapse preview
     const fullContent = esc(r.content || r.description || snippet).slice(0, 600);
     if (fullContent.length > snippet.length + 20) {
@@ -2080,8 +2081,10 @@ fetch('/stats').then(function(r){return r.json()}).then(function(d){
 init();
 // Live stats from stats API
 fetch('https://stats.blackroad.io/live').then(r=>r.json()).then(d=>{const e=d.ecosystem;document.querySelectorAll('[data-stat]').forEach(el=>{const k=el.dataset.stat;if(k==='agents')el.textContent=e.agents;if(k==='repos')el.textContent=e.repos.toLocaleString();if(k==='orgs')el.textContent=e.orgs;if(k==='nodes')el.textContent=e.nodes;if(k==='domains')el.textContent=e.domains;if(k==='tops')el.textContent=e.tops;if(k==='workers')el.textContent=e.workers;if(k==='users')el.textContent=d.auth?.users||0;if(k==='messages')el.textContent=(d.chat?.total_messages||0).toLocaleString();if(k==='queries')el.textContent=(d.search?.total_queries||0).toLocaleString();if(k==='pages')el.textContent=(d.search?.indexed_pages||0).toLocaleString()})}).catch(()=>{});
+window.addEventListener('message',function(e){if(e.data&&e.data.type==='blackroad-os:context'){window._osUser=e.data.user;window._osToken=e.data.token;}});if(window.parent!==window)window.parent.postMessage({type:'blackroad-os:request-context'},'*');
 </script>
-<script>!function(){var A="https://analytics-blackroad.blackroad.workers.dev",s=sessionStorage.getItem("br_sid")||crypto.randomUUID().slice(0,12);sessionStorage.setItem("br_sid",s);function ev(n,p){fetch(A+"/event",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({name:n,path:location.pathname,session_id:s,props:p||{}})}).catch(function(){});}fetch(A+"/pageview",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({path:location.hostname+location.pathname,referrer:document.referrer,session_id:s,screen_w:screen.width,screen_h:screen.height,lang:navigator.language})}).catch(function(){});var t0=Date.now(),maxScroll=0,engaged=0;window.addEventListener("scroll",function(){var pct=Math.round(100*(window.scrollY+window.innerHeight)/document.documentElement.scrollHeight);if(pct>maxScroll){maxScroll=pct;if(pct>=25&&pct<50)ev("scroll_25");if(pct>=50&&pct<75)ev("scroll_50");if(pct>=75&&pct<100)ev("scroll_75");if(pct>=100)ev("scroll_100");}});setInterval(function(){engaged++;},30000);window.addEventListener("beforeunload",function(){var dur=Date.now()-t0;fetch(A+"/session",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({session_id:s,duration_ms:dur}),keepalive:true}).catch(function(){});ev("exit",{duration_s:Math.round(dur/1000),scroll_max:maxScroll,engaged_intervals:engaged});if(dur<10000)ev("bounce");});document.addEventListener("click",function(e){var a=e.target.closest("a");if(a&&a.hostname!==location.hostname)ev("outbound_click",{url:a.href});});}();</script></body>
+<script>!function(){var A="https://analytics-blackroad.blackroad.workers.dev",s=sessionStorage.getItem("br_sid")||crypto.randomUUID().slice(0,12);sessionStorage.setItem("br_sid",s);function ev(n,p){fetch(A+"/event",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({name:n,path:location.pathname,session_id:s,props:p||{}})}).catch(function(){});}fetch(A+"/pageview",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({path:location.hostname+location.pathname,referrer:document.referrer,session_id:s,screen_w:screen.width,screen_h:screen.height,lang:navigator.language})}).catch(function(){});var t0=Date.now(),maxScroll=0,engaged=0;window.addEventListener("scroll",function(){var pct=Math.round(100*(window.scrollY+window.innerHeight)/document.documentElement.scrollHeight);if(pct>maxScroll){maxScroll=pct;if(pct>=25&&pct<50)ev("scroll_25");if(pct>=50&&pct<75)ev("scroll_50");if(pct>=75&&pct<100)ev("scroll_75");if(pct>=100)ev("scroll_100");}});setInterval(function(){engaged++;},30000);window.addEventListener("beforeunload",function(){var dur=Date.now()-t0;fetch(A+"/session",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({session_id:s,duration_ms:dur}),keepalive:true}).catch(function(){});ev("exit",{duration_s:Math.round(dur/1000),scroll_max:maxScroll,engaged_intervals:engaged});if(dur<10000)ev("bounce");});document.addEventListener("click",function(e){var a=e.target.closest("a");if(a&&a.hostname!==location.hostname)ev("outbound_click",{url:a.href});});}();</script><script>(function(){var d={path:location.pathname,ref:document.referrer,w:screen.width,h:screen.height,t:Date.now()};navigator.sendBeacon&&navigator.sendBeacon('/api/analytics',JSON.stringify(d))})()</script><script>!function(){var b=document.createElement("div");b.style.cssText="position:fixed;top:0;left:0;right:0;z-index:99999;background:#0a0a0a;border-bottom:1px solid #1a1a1a;padding:6px 16px;display:flex;align-items:center;justify-content:space-between;font-family:sans-serif";b.innerHTML='<span style="font-size:11px;color:#737373">Part of <a href="https://os.blackroad.io" style="color:#f5f5f5;font-weight:600;text-decoration:none">BlackRoad OS</a></span><a href="https://os.blackroad.io" style="font-size:10px;font-weight:600;padding:4px 12px;background:#f5f5f5;color:#000;border-radius:4px;text-decoration:none">Try Free</a>';b.id="br-bar";if(!document.getElementById("br-bar")){document.body.prepend(b);document.body.style.paddingTop=(parseInt(getComputedStyle(document.body).paddingTop)||0)+32+"px"}}();</script>
+</body>
 </html>`;
 
 // ╔══════════════════════════════════════════════════════════════╗
@@ -4249,7 +4252,7 @@ async function handleShareSearch(request, env) {
     return Response.json({
       ok: true,
       share_id: shareId,
-      share_url: `https://search.blackroad.io/api/share-search?id=${shareId}`,
+      share_url: `https://roadview.blackroad.io/api/share-search?id=${shareId}`,
       expires_at: expiresAt ? new Date(expiresAt * 1000).toISOString() : null,
     });
   }
@@ -4316,7 +4319,7 @@ async function handleShareSearch(request, env) {
     return Response.json({
       shared_searches: (shares.results || []).map(s => ({
         ...s,
-        share_url: `https://search.blackroad.io/api/share-search?id=${s.share_id}`,
+        share_url: `https://roadview.blackroad.io/api/share-search?id=${s.share_id}`,
         created_at: s.created_at ? new Date(s.created_at * 1000).toISOString() : null,
         expires_at: s.expires_at ? new Date(s.expires_at * 1000).toISOString() : null,
       })),
@@ -4332,10 +4335,479 @@ async function handleShareSearch(request, env) {
   return Response.json({
     popular_shares: (shares.results || []).map(s => ({
       ...s,
-      share_url: `https://search.blackroad.io/api/share-search?id=${s.share_id}`,
+      share_url: `https://roadview.blackroad.io/api/share-search?id=${s.share_id}`,
       created_at: s.created_at ? new Date(s.created_at * 1000).toISOString() : null,
     })),
   });
+}
+
+// ─── Explore Topics (crawlable search result pages) ─────────────────────────
+const EXPLORE_TOPICS = [
+  // AI Tools
+  { slug: 'ai-agents', name: 'AI Agents', category: 'AI Tools', query: 'AI agent platforms and tools', description: 'Discover AI agent platforms that automate tasks, coordinate workflows, and run autonomously on your own hardware.', results: [
+    { title: 'RoadTrip — 27 AI Agents Working Together', url: 'https://roadtrip.blackroad.io', snippet: 'The BlackRoad agent hub with 27 specialized AI agents collaborating across 8 channels. Self-hosted on Raspberry Pi clusters with persistent memory and auto-training.' },
+    { title: 'BlackRoad OS — Sovereign Agent Operating System', url: 'https://blackroad.io', snippet: 'Distributed agent OS running on Raspberry Pi clusters. 50 AI skills, 5 nodes, 26 TOPS acceleration. Your AI, your hardware, your rules.' },
+    { title: 'CarPool — Agent Discovery and Dispatch', url: 'https://blackroad.io/carpool', snippet: 'Agent discovery, matching, and dispatch across the mesh network. Load balancing and failover for multi-agent systems.' },
+    { title: 'Alice — Gateway Agent', url: 'https://blackroad.io/agents/alice', snippet: 'The gateway agent routing traffic across 18 domains, managing DNS filtering, and running PostgreSQL and Qdrant vector search.' },
+    { title: 'Lucidia — Memory and Reasoning Agent', url: 'https://blackroad.io/agents/lucidia', snippet: 'Persistent memory, meta-cognitive reasoning, and philosophical analysis. The dreamer in the BlackRoad agent fleet.' },
+    { title: 'Squad Webhook — GitHub Agent Responders', url: 'https://blackroad.io/squad-webhook', snippet: '8 AI agents respond to mentions on GitHub across 69 repositories. Automated code review, issue triage, and PR feedback.' },
+  ], relatedSearches: ['chatgpt-alternatives', 'local-ai', 'sovereign-ai', 'multi-model-ai'] },
+  { slug: 'chatgpt-alternatives', name: 'ChatGPT Alternatives', category: 'AI Tools', query: 'alternatives to ChatGPT', description: 'Find powerful alternatives to ChatGPT that run locally, respect your privacy, and give you full control over your AI.', results: [
+    { title: 'RoadTrip — Multi-Model AI Chat', url: 'https://roadtrip.blackroad.io', snippet: 'Chat with 15+ AI models including Mistral, Llama, DeepSeek, and Qwen. Streaming responses, persistent conversations, zero cloud dependency.' },
+    { title: 'BlackRoad AI — 50 Skills, 37 Models, Zero Cloud', url: 'https://blackroadai.com', snippet: 'Sovereign AI platform with 50 skills across 6 modules. 37 local models running on Raspberry Pi clusters with 26 TOPS of Hailo-8 acceleration.' },
+    { title: 'Lucidia Studio — AI Creative Environment', url: 'https://lucidia.studio', snippet: 'AI-powered code generation, content creation, and agent interaction in a terminal-first interface. No subscription required.' },
+    { title: 'Lucidia QI — Deep Reasoning Engine', url: 'https://lucidiaqi.com', snippet: 'Quantum reasoning and philosophical synthesis at the intersection of AI and mathematics. Go beyond chat into deep analysis.' },
+    { title: 'BlackRoad Chat — Streaming AI Conversations', url: 'https://roadtrip.blackroad.io', snippet: '15+ Ollama models with streaming responses, system prompts, and conversation history. Private and sovereign.' },
+  ], relatedSearches: ['ai-agents', 'local-ai', 'sovereign-ai', 'ai-tutoring'] },
+  { slug: 'local-ai', name: 'Local AI', category: 'AI Tools', query: 'run AI locally on your own hardware', description: 'Run AI models on your own hardware with zero cloud dependency. Full privacy, full control, no subscription fees.', results: [
+    { title: 'BlackRoad AI — Your AI, Your Hardware, Your Rules', url: 'https://blackroadai.com', snippet: '50 AI skills, 37 local models, 26 TOPS of Hailo-8 acceleration. Everything runs on Raspberry Pi clusters you own.' },
+    { title: 'BlackRoad Systems — Distributed Edge Computing', url: 'https://blackroad.systems', snippet: '26 TOPS of Hailo-8 AI acceleration, Docker Swarm orchestration, and edge computing across 5 nodes. Sovereign infrastructure.' },
+    { title: 'Cecilia — Edge Intelligence with Hailo-8', url: 'https://blackroad.io/agents/cecilia', snippet: '16 Ollama models running on Pi 5 with Hailo-8 accelerator. TTS synthesis, MinIO storage, and 26 TOPS of AI compute.' },
+    { title: 'BlackRoad Quantum — Hardware Kits', url: 'https://blackroadquantum.shop', snippet: 'Pi 5 + Hailo-8 starter bundles for $199. Everything you need to run sovereign AI on your own hardware.' },
+    { title: 'Octavia — Infrastructure Agent', url: 'https://blackroad.io/agents/octavia', snippet: '1TB NVMe, Hailo-8, Gitea with 629 repos, Docker Swarm leader. The backbone of sovereign AI infrastructure.' },
+  ], relatedSearches: ['ai-agents', 'sovereign-ai', 'chatgpt-alternatives', 'encryption-tools'] },
+  { slug: 'sovereign-ai', name: 'Sovereign AI', category: 'AI Tools', query: 'self-hosted AI infrastructure', description: 'Own your AI infrastructure completely. No cloud providers, no subscriptions, no data leaving your network.', results: [
+    { title: 'BlackRoad OS — Sovereign Agent Operating System', url: 'https://blackroad.io', snippet: 'The distributed agent OS. Self-hosted AI infrastructure on Raspberry Pi clusters. 50 AI skills, 5 nodes, 26 TOPS. Your AI. Your Hardware. Your Rules.' },
+    { title: 'BlackRoad Network — RoadNet Carrier Infrastructure', url: 'https://blackroad.network', snippet: 'Mesh carrier network spanning 5 Raspberry Pi nodes. WiFi mesh, WireGuard VPN, Pi-hole DNS, and sovereign connectivity.' },
+    { title: 'BlackRoad Identity — Sovereign Authentication', url: 'https://blackroad.me', snippet: 'Self-hosted auth with D1-backed accounts, PBKDF2 hashing, JWT sessions, and zero third-party dependencies.' },
+    { title: 'RoadChain — Immutable Action Ledger', url: 'https://roadchain.io', snippet: 'Every action witnessed. Hash-chained audit trail of agent decisions, infrastructure changes, and system events.' },
+    { title: 'BlackRoad Quantum Shop — Build Your Own', url: 'https://blackroadquantum.shop', snippet: 'Hardware kits starting at $199. Pi 5 + Hailo-8 bundles, NVMe storage, mesh networking equipment.' },
+    { title: 'RoadCoin — Compute Credits for the Mesh', url: 'https://roadcoin.io', snippet: 'Earn credits by contributing compute, spend them on AI inference. OpenAI-compatible API at 50% of the price.' },
+  ], relatedSearches: ['local-ai', 'encryption-tools', 'ai-agents', 'credential-vaults'] },
+  { slug: 'ai-tutoring', name: 'AI Tutoring', category: 'AI Tools', query: 'AI-powered tutoring platforms', description: 'AI tutoring that teaches you how to think, not just gives you answers. Personalized learning at your own pace.', results: [
+    { title: 'Roadie — AI Tutor on BlackRoad', url: 'https://roadie.blackroad.io', snippet: 'AI-powered tutoring that teaches you how to think. Personalized lessons across math, science, coding, and more.' },
+    { title: 'BlackRoad AI — 50 Learning Skills', url: 'https://blackroadai.com', snippet: '50 AI skills across 6 modules including education, reasoning, and creative thinking. Local models, zero cloud dependency.' },
+    { title: 'Lucidia — Memory and Reasoning', url: 'https://lucidia.earth', snippet: 'Autonomous cognition with persistent memory. Multi-model reasoning that helps you understand deeply, not just memorize.' },
+    { title: 'BlackRoad Pricing — Free Tier Available', url: 'https://blackroad.io/pricing', snippet: 'Operator tier is free. Pro at $29/mo, Sovereign at $199/mo. AI tutoring included in all plans.' },
+  ], relatedSearches: ['homework-help', 'study-tools', 'learn-python', 'math-solver'] },
+  { slug: 'ai-code-editors', name: 'AI Code Editors', category: 'AI Tools', query: 'AI-powered code editors and assistants', description: 'Code faster with AI-powered editors that understand your codebase, generate code, and debug automatically.', results: [
+    { title: 'Lucidia Studio — AI Creative Environment', url: 'https://lucidia.studio', snippet: 'AI-powered code generation, content creation, and agent interaction in a terminal-first interface.' },
+    { title: 'RoadC — The BlackRoad Programming Language', url: 'https://blackroad.io/roadc', snippet: 'Custom programming language with Python-style indentation. Functions, recursion, match expressions, and spawn for concurrency.' },
+    { title: 'RoadCode — BlackRoad Code Platform', url: 'https://roadcode.blackroad.io', snippet: 'Code hosting, version control, and collaborative development across the BlackRoad ecosystem.' },
+    { title: 'Squad Webhook — AI Code Review', url: 'https://blackroad.io/squad-webhook', snippet: '8 AI agents respond to GitHub mentions across 69 repos. Automated code review, triage, and deployment notifications.' },
+    { title: 'Blackbox Programming — Developer Profile', url: 'https://blackboxprogramming.io', snippet: '93 GitHub repos, 629 Gitea repos. Full-stack development, infrastructure engineering, and AI systems.' },
+  ], relatedSearches: ['learn-python', 'learn-javascript', 'web-development', 'git-workflow'] },
+  { slug: 'multi-model-ai', name: 'Multi-Model AI', category: 'AI Tools', query: 'use multiple AI models together', description: 'Run multiple AI models simultaneously for better results. Compare outputs, route tasks to the best model, and build AI pipelines.', results: [
+    { title: 'RoadTrip — 15+ Models, One Interface', url: 'https://roadtrip.blackroad.io', snippet: 'Chat with Mistral, Llama, DeepSeek, Qwen, and custom models. Streaming responses with automatic model selection.' },
+    { title: 'Cecilia — 16 Ollama Models on Edge', url: 'https://blackroad.io/agents/cecilia', snippet: 'Edge AI with Hailo-8 acceleration running 16 Ollama models including 4 custom CECE models for specialized tasks.' },
+    { title: 'BlackRoad AI — 37 Local Models', url: 'https://blackroadai.com', snippet: '37 local models across the Pi fleet. 50 AI skills, 26 TOPS acceleration. OpenAI-compatible API at 50% price.' },
+    { title: 'CarPool — Intelligent Model Routing', url: 'https://blackroad.io/carpool', snippet: 'Agent discovery and dispatch with automatic model selection. Route tasks to the best-fit model across the mesh.' },
+    { title: 'BlackRoad Mesh — Browser Nodes for Scale', url: 'https://blackroad.io/mesh', snippet: 'Browser tabs become compute nodes via WebGPU+WASM+WebRTC. Pi fleet as backbone, browser nodes as elastic scale.' },
+  ], relatedSearches: ['ai-agents', 'local-ai', 'chatgpt-alternatives', 'sovereign-ai'] },
+
+  // Coding
+  { slug: 'learn-python', name: 'Learn Python', category: 'Coding', query: 'learn Python programming', description: 'Start learning Python programming from scratch with AI-powered tutoring and hands-on projects.', results: [
+    { title: 'Roadie — AI Python Tutor', url: 'https://roadie.blackroad.io', snippet: 'Learn Python with an AI tutor that adapts to your pace. Interactive lessons, code exercises, and real-time feedback.' },
+    { title: 'Lucidia Studio — Code in Python', url: 'https://lucidia.studio', snippet: 'AI-powered Python development environment. Generate, debug, and understand code with natural language assistance.' },
+    { title: 'BlackRoad Documentation — Python Guides', url: 'https://blackroad.io/docs', snippet: 'Python deployment guides, API reference, and infrastructure automation tutorials for the BlackRoad ecosystem.' },
+    { title: 'Blackbox Programming — Python Projects', url: 'https://blackboxprogramming.io', snippet: '629 repositories including Python projects for AI, automation, and web development. Real code, real projects.' },
+  ], relatedSearches: ['learn-javascript', 'web-development', 'ai-code-editors', 'homework-help'] },
+  { slug: 'learn-javascript', name: 'Learn JavaScript', category: 'Coding', query: 'learn JavaScript programming', description: 'Master JavaScript from fundamentals to advanced concepts with AI-guided learning and real projects.', results: [
+    { title: 'Roadie — AI JavaScript Tutor', url: 'https://roadie.blackroad.io', snippet: 'Interactive JavaScript lessons with AI tutoring. From variables to async/await, learn at your own pace.' },
+    { title: 'Lucidia Studio — JavaScript Development', url: 'https://lucidia.studio', snippet: 'Write JavaScript with AI assistance. Code generation, debugging, and explanation in a terminal-first environment.' },
+    { title: 'BlackRoad Studio — Next.js + Remotion', url: 'https://studio.blackroad.io', snippet: 'See JavaScript in action: full animated video platform built with Next.js 15, Remotion 4, and Zustand 5.' },
+    { title: 'RoadC — Learn Language Design', url: 'https://blackroad.io/roadc', snippet: 'Understand programming languages by studying RoadC: lexer, parser, interpreter. Built with JavaScript concepts.' },
+  ], relatedSearches: ['learn-python', 'web-development', 'api-development', 'ai-code-editors'] },
+  { slug: 'web-development', name: 'Web Development', category: 'Coding', query: 'web development tools and frameworks', description: 'Build modern web applications with the latest frameworks, tools, and AI-powered development environments.', results: [
+    { title: 'BlackRoad Studio — Next.js 15 + Remotion 4', url: 'https://studio.blackroad.io', snippet: 'Full animated video platform built with Next.js 15, Remotion 4, Zustand 5. AI Worker with SDXL image generation.' },
+    { title: 'BlackRoad Brand — Design System', url: 'https://brand.blackroad.io', snippet: 'Official design system with colors, typography, gradients, and spacing. Space Grotesk, JetBrains Mono, Inter.' },
+    { title: 'Lucidia Studio — AI Web Development', url: 'https://lucidia.studio', snippet: 'Build web apps with AI assistance. Code generation, component creation, and full-stack development support.' },
+    { title: 'Blackbox Programming — 629 Repos', url: 'https://blackboxprogramming.io', snippet: 'Full-stack developer with 629 repositories. Web applications, APIs, infrastructure tools, and AI systems.' },
+    { title: 'RoadView — Cloudflare Workers Example', url: 'https://roadview.blackroad.io', snippet: 'This search engine runs as a Cloudflare Worker with D1 database, FTS5 full-text search, and AI answers.' },
+  ], relatedSearches: ['learn-javascript', 'api-development', 'database-design', 'graphic-design'] },
+  { slug: 'api-development', name: 'API Development', category: 'Coding', query: 'build and deploy APIs', description: 'Design, build, and deploy production APIs with modern tooling and sovereign infrastructure.', results: [
+    { title: 'BlackRoad Auth — Sovereign Auth API', url: 'https://auth.blackroad.io', snippet: 'Zero-dependency authentication API. D1-backed, PBKDF2 hashing, JWT sessions. A real production API you can study.' },
+    { title: 'RoadView Search API — Full-Text Search', url: 'https://roadview.blackroad.io', snippet: 'D1 FTS5 full-text search API with AI answers, autocomplete, analytics, and fact-checking endpoints.' },
+    { title: 'BlackRoad Stats — KPI Collection API', url: 'https://stats.blackroad.io', snippet: 'Stats collection API for fleet health, website metrics, and infrastructure telemetry. KV-backed storage.' },
+    { title: 'BlackRoad Analytics — Privacy-First Tracking', url: 'https://analytics.blackroad.io', snippet: 'Sovereign analytics API. D1-backed, no third-party tracking. Page views, visitors, referrers across all domains.' },
+    { title: 'NATS Mesh — Real-Time Messaging API', url: 'https://blackroad.io/nats', snippet: 'NATS v2.12.3 message bus for pub/sub agent communication, event streaming, and JetStream persistence.' },
+  ], relatedSearches: ['web-development', 'database-design', 'devops', 'learn-javascript'] },
+  { slug: 'database-design', name: 'Database Design', category: 'Coding', query: 'database design and management', description: 'Learn database design patterns with real-world examples from production systems using D1, PostgreSQL, and SQLite.', results: [
+    { title: 'RoadView — D1 FTS5 Database Design', url: 'https://roadview.blackroad.io', snippet: 'Full-text search engine built on Cloudflare D1 with FTS5. Query analytics, click tracking, and fact verification tables.' },
+    { title: 'Alice — PostgreSQL and Qdrant', url: 'https://blackroad.io/agents/alice', snippet: 'Gateway agent running PostgreSQL relational database and Qdrant vector search. Real production database infrastructure.' },
+    { title: 'BlackRoad Auth — D1 User Database', url: 'https://auth.blackroad.io', snippet: 'User accounts backed by D1 with PBKDF2 password hashing, session management, and profile storage.' },
+    { title: 'RoadChain — Immutable Ledger Design', url: 'https://roadchain.io', snippet: 'Hash-chained immutable audit trail. Every record links to the previous via cryptographic hashing.' },
+  ], relatedSearches: ['api-development', 'web-development', 'devops', 'encryption-tools'] },
+  { slug: 'git-workflow', name: 'Git Workflow', category: 'Coding', query: 'Git version control workflows', description: 'Master Git workflows for solo developers and teams. Branch strategies, CI/CD, and repository management at scale.', results: [
+    { title: 'Octavia — Gitea with 629 Repositories', url: 'https://blackroad.io/agents/octavia', snippet: 'Self-hosted Gitea managing 629 repos across 7 orgs. The backbone of sovereign version control.' },
+    { title: 'Blackbox Programming — 93 GitHub Repos', url: 'https://blackboxprogramming.io', snippet: '93 active GitHub repos mirrored from Gitea. Real-world Git workflow across hundreds of projects.' },
+    { title: 'RoadCode — Code Platform', url: 'https://roadcode.blackroad.io', snippet: 'Collaborative code hosting and version control across the BlackRoad ecosystem.' },
+    { title: 'Squad Webhook — Git-Triggered AI', url: 'https://blackroad.io/squad-webhook', snippet: 'AI agents triggered by Git events. Automated code review on pull requests across 69 repositories.' },
+  ], relatedSearches: ['devops', 'web-development', 'ai-code-editors', 'team-collaboration'] },
+  { slug: 'devops', name: 'DevOps', category: 'Coding', query: 'DevOps tools and practices', description: 'Deploy, monitor, and manage infrastructure with sovereign DevOps tooling. Docker, mesh networking, and fleet management.', results: [
+    { title: 'Aria — Fleet Orchestration with Portainer', url: 'https://blackroad.io/agents/aria', snippet: 'Portainer v2.33.6 for container management, Headscale v0.23.0 for mesh VPN, and hardware monitoring.' },
+    { title: 'BlackRoad Status — Infrastructure Monitoring', url: 'https://status.blackroad.io', snippet: 'Live monitoring of 5 Pi nodes. Service health, port checks, and fleet telemetry dashboard.' },
+    { title: 'BlackRoad Systems — Docker Swarm', url: 'https://blackroad.systems', snippet: 'Docker Swarm orchestration across 5 nodes. 26 TOPS AI acceleration, NATS messaging, and edge computing.' },
+    { title: 'BlackRoad Network — Mesh Infrastructure', url: 'https://blackroad.network', snippet: 'Mesh carrier network with WiFi mesh, WireGuard VPN, Pi-hole DNS, and sovereign connectivity across 5 nodes.' },
+    { title: 'BlackRoad Stats — KPI Monitoring', url: 'https://stats.blackroad.io', snippet: 'Fleet health collectors running every 5 minutes. Historical data, performance metrics, and infrastructure telemetry.' },
+  ], relatedSearches: ['git-workflow', 'database-design', 'api-development', 'project-management'] },
+
+  // Math
+  { slug: 'calculus-help', name: 'Calculus Help', category: 'Math', query: 'calculus tutoring and problem solving', description: 'Get help with calculus concepts from derivatives to integrals with AI-powered explanations and step-by-step solutions.', results: [
+    { title: 'Roadie — AI Calculus Tutor', url: 'https://roadie.blackroad.io', snippet: 'AI tutoring for calculus. Step-by-step explanations of derivatives, integrals, limits, and series. Learn the concepts, not just the answers.' },
+    { title: 'Amundson Constant — Mathematical Framework', url: 'https://blackroad.io/z-framework', snippet: 'G(n)=n^(n+1)/(n+1)^n — the Amundson Framework. 50+ identities, published with computational verification to 10M digits.' },
+    { title: 'BlackRoad AI — Math Reasoning Skills', url: 'https://blackroadai.com', snippet: '50 AI skills including mathematical reasoning, proof verification, and computational analysis.' },
+    { title: 'Lucidia — Deep Mathematical Reasoning', url: 'https://lucidiaqi.com', snippet: 'Quantum reasoning engine for deep mathematical analysis. Go beyond computation into understanding.' },
+  ], relatedSearches: ['algebra-help', 'math-solver', 'statistics-help', 'homework-help'] },
+  { slug: 'algebra-help', name: 'Algebra Help', category: 'Math', query: 'algebra tutoring and practice', description: 'Master algebra from basic equations to advanced topics with personalized AI tutoring.', results: [
+    { title: 'Roadie — AI Algebra Tutor', url: 'https://roadie.blackroad.io', snippet: 'Learn algebra with AI guidance. Equations, inequalities, functions, and graphing explained step by step.' },
+    { title: 'BlackRoad AI — Math Problem Solving', url: 'https://blackroadai.com', snippet: 'AI-powered math assistance with 50 skills. Get help understanding algebra concepts, not just answers.' },
+    { title: 'Lucidia — Reasoning and Analysis', url: 'https://lucidia.earth', snippet: 'Multi-model reasoning that helps you understand mathematical concepts deeply through persistent conversation.' },
+  ], relatedSearches: ['calculus-help', 'math-solver', 'geometry-help', 'homework-help'] },
+  { slug: 'statistics-help', name: 'Statistics Help', category: 'Math', query: 'statistics and probability help', description: 'Understand statistics and probability with AI-powered explanations, visualizations, and real-world examples.', results: [
+    { title: 'Roadie — AI Statistics Tutor', url: 'https://roadie.blackroad.io', snippet: 'Statistics tutoring covering probability, distributions, hypothesis testing, regression, and data analysis.' },
+    { title: 'BlackRoad Analytics — Real Statistics in Action', url: 'https://analytics.blackroad.io', snippet: 'See statistics applied: page views, unique visitors, referrers, and trend analysis across real web properties.' },
+    { title: 'BlackRoad AI — Data Analysis Skills', url: 'https://blackroadai.com', snippet: 'AI-powered statistical analysis and data reasoning. From descriptive stats to inferential testing.' },
+  ], relatedSearches: ['calculus-help', 'math-solver', 'algebra-help', 'analytics-dashboards'] },
+  { slug: 'geometry-help', name: 'Geometry Help', category: 'Math', query: 'geometry tutoring and visualization', description: 'Learn geometry through interactive visualizations and AI-powered explanations of shapes, proofs, and spatial reasoning.', results: [
+    { title: 'Roadie — AI Geometry Tutor', url: 'https://roadie.blackroad.io', snippet: 'Geometry tutoring with visual explanations. Shapes, angles, proofs, transformations, and coordinate geometry.' },
+    { title: 'RoadC — Spatial Programming', url: 'https://blackroad.io/roadc', snippet: 'RoadC includes a space keyword for 3D programming. Learn geometry concepts through code.' },
+    { title: 'BlackRoad AI — Spatial Reasoning', url: 'https://blackroadai.com', snippet: 'AI skills for spatial reasoning and geometric analysis. Visual and computational approaches to geometry.' },
+  ], relatedSearches: ['algebra-help', 'calculus-help', 'math-solver', 'homework-help'] },
+  { slug: 'math-solver', name: 'Math Solver', category: 'Math', query: 'solve math problems with AI', description: 'Solve math problems step by step with AI that shows its work and teaches you the underlying concepts.', results: [
+    { title: 'Roadie — AI Math Solver', url: 'https://roadie.blackroad.io', snippet: 'Solve any math problem with step-by-step AI explanations. Algebra, calculus, statistics, geometry, and more.' },
+    { title: 'BlackRoad AI — Computational Math', url: 'https://blackroadai.com', snippet: '50 AI skills including computational mathematics, symbolic reasoning, and proof verification.' },
+    { title: 'Amundson Framework — Original Mathematics', url: 'https://blackroad.io/z-framework', snippet: 'The Amundson Constant computed to 10M digits. Original mathematical framework with 50+ identities.' },
+    { title: 'Lucidia QI — Deep Math Analysis', url: 'https://lucidiaqi.com', snippet: 'Quantum reasoning for mathematical problems. Deep analysis that goes beyond computation to understanding.' },
+    { title: 'RoadTrip — Ask Any Math Question', url: 'https://roadtrip.blackroad.io', snippet: 'Chat with 15+ AI models about math problems. Get multiple perspectives and explanations from different models.' },
+  ], relatedSearches: ['calculus-help', 'algebra-help', 'statistics-help', 'homework-help'] },
+
+  // Education
+  { slug: 'homework-help', name: 'Homework Help', category: 'Education', query: 'homework help and study assistance', description: 'Get homework help that teaches you the material. AI tutoring that explains concepts so you actually learn.', results: [
+    { title: 'Roadie — AI Homework Assistant', url: 'https://roadie.blackroad.io', snippet: 'AI-powered homework help that teaches you how to think. Covers math, science, coding, writing, and more.' },
+    { title: 'RoadTrip — Ask Any Question', url: 'https://roadtrip.blackroad.io', snippet: 'Chat with multiple AI models about any homework topic. Get explanations from different perspectives.' },
+    { title: 'BlackRoad AI — 50 Learning Skills', url: 'https://blackroadai.com', snippet: 'AI assistance across 50 skills and 6 modules. From basic concepts to advanced topics.' },
+    { title: 'Lucidia — Persistent Study Partner', url: 'https://lucidia.earth', snippet: 'AI with persistent memory that remembers what you have studied and adapts to your learning style over time.' },
+  ], relatedSearches: ['study-tools', 'ai-tutoring', 'math-solver', 'test-prep'] },
+  { slug: 'study-tools', name: 'Study Tools', category: 'Education', query: 'study tools and learning resources', description: 'Tools and platforms that make studying more effective with AI-powered learning, spaced repetition, and personalization.', results: [
+    { title: 'Roadie — Personalized Study Platform', url: 'https://roadie.blackroad.io', snippet: 'AI tutoring that adapts to your pace. Personalized lessons, practice problems, and concept explanations.' },
+    { title: 'Lucidia — Memory-Enhanced Learning', url: 'https://lucidia.earth', snippet: 'Persistent memory across study sessions. Your AI study partner remembers your progress and weak areas.' },
+    { title: 'RoadTrip — Multi-Model Study Chat', url: 'https://roadtrip.blackroad.io', snippet: 'Study any topic with 15+ AI models. Compare explanations, get different perspectives, and deepen understanding.' },
+    { title: 'BlackRoad Documentation — Learning Guides', url: 'https://blackroad.io/docs', snippet: 'Comprehensive documentation and guides covering technology, programming, and infrastructure topics.' },
+  ], relatedSearches: ['homework-help', 'ai-tutoring', 'test-prep', 'learning-platforms'] },
+  { slug: 'online-tutoring', name: 'Online Tutoring', category: 'Education', query: 'online tutoring platforms', description: 'Connect with AI tutors available 24/7. Personalized instruction in any subject at your own pace.', results: [
+    { title: 'Roadie — 24/7 AI Tutoring', url: 'https://roadie.blackroad.io', snippet: 'AI tutoring available any time. Math, science, coding, writing, and more. No scheduling, no waiting.' },
+    { title: 'BlackRoad AI — Always-On AI Teaching', url: 'https://blackroadai.com', snippet: '50 AI skills running on sovereign infrastructure. Available 24/7 with zero cloud dependency.' },
+    { title: 'RoadTrip — Conversational Learning', url: 'https://roadtrip.blackroad.io', snippet: 'Learn through conversation with AI agents. 27 specialized agents across different knowledge domains.' },
+    { title: 'BlackRoad Pricing — Free Tier', url: 'https://blackroad.io/pricing', snippet: 'Start tutoring for free with the Operator tier. Upgrade to Pro ($29/mo) for more agents and features.' },
+  ], relatedSearches: ['ai-tutoring', 'homework-help', 'study-tools', 'learning-platforms'] },
+  { slug: 'test-prep', name: 'Test Prep', category: 'Education', query: 'test preparation and practice', description: 'Prepare for tests and exams with AI-powered practice, explanations, and personalized study plans.', results: [
+    { title: 'Roadie — AI Test Preparation', url: 'https://roadie.blackroad.io', snippet: 'Prepare for any test with AI-powered practice questions, concept review, and step-by-step explanations.' },
+    { title: 'BlackRoad AI — Exam Skills', url: 'https://blackroadai.com', snippet: 'AI assistance for test preparation across subjects. Practice problems, concept explanations, and timed drills.' },
+    { title: 'Lucidia — Deep Concept Review', url: 'https://lucidiaqi.com', snippet: 'Deep reasoning for complex test topics. Go beyond memorization to true understanding of concepts.' },
+  ], relatedSearches: ['homework-help', 'study-tools', 'math-solver', 'online-tutoring'] },
+  { slug: 'learning-platforms', name: 'Learning Platforms', category: 'Education', query: 'online learning platforms', description: 'Comprehensive learning platforms with AI tutoring, interactive lessons, and self-paced courses.', results: [
+    { title: 'BlackRoad OS — The Learning OS', url: 'https://blackroad.io', snippet: 'An operating system built for learning. 50 AI skills, 27 agents, and sovereign infrastructure you can study and modify.' },
+    { title: 'Roadie — AI Learning Platform', url: 'https://roadie.blackroad.io', snippet: 'Personalized AI tutoring platform. Learn coding, math, science, and more at your own pace.' },
+    { title: 'BlackRoad Documentation — Full Guides', url: 'https://blackroad.io/docs', snippet: 'Complete documentation for every system. Learn by reading real production documentation.' },
+    { title: 'Lucidia Studio — Learn by Building', url: 'https://lucidia.studio', snippet: 'Creative environment where learning happens through building. AI-assisted code and content creation.' },
+    { title: 'BlackRoad Pricing — Start Free', url: 'https://blackroad.io/pricing', snippet: 'Operator tier is free forever. Learn, build, and grow with BlackRoad OS.' },
+  ], relatedSearches: ['online-tutoring', 'ai-tutoring', 'study-tools', 'learn-python'] },
+
+  // Productivity
+  { slug: 'project-management', name: 'Project Management', category: 'Productivity', query: 'project management tools', description: 'Manage projects with AI-powered task tracking, team coordination, and automated workflows.', results: [
+    { title: 'BlackRoad OS — Agent-Powered Project Management', url: 'https://blackroad.io', snippet: '27 AI agents that coordinate work across projects. Persistent memory, automated handoffs, and sovereign task tracking.' },
+    { title: 'RoadTrip — Multi-Agent Coordination', url: 'https://roadtrip.blackroad.io', snippet: '27 agents collaborating across 8 channels. Task dispatch, status updates, and automated project workflows.' },
+    { title: 'Aria — Orchestration and Coordination', url: 'https://blackroad.io/agents/aria', snippet: 'Fleet orchestration with Portainer. Container management, service deployment, and infrastructure project coordination.' },
+    { title: 'CarPool — Task Dispatch', url: 'https://blackroad.io/carpool', snippet: 'Route tasks to the best-fit agent. Load balancing, failover, and intelligent work distribution.' },
+  ], relatedSearches: ['task-tracking', 'team-collaboration', 'note-taking', 'devops'] },
+  { slug: 'note-taking', name: 'Note Taking', category: 'Productivity', query: 'note taking and knowledge management', description: 'Capture and organize knowledge with AI-powered note taking that remembers context and connects ideas.', results: [
+    { title: 'Lucidia — Persistent Memory System', url: 'https://lucidia.earth', snippet: 'AI with persistent memory across sessions. Knowledge that grows, connects, and surfaces when you need it.' },
+    { title: 'BlackRoad OS — Memory-First Design', url: 'https://blackroad.io', snippet: 'Built around memory. Journal, codex, TILs, and knowledge graph with FTS5 search across all entries.' },
+    { title: 'RoadView — Search Your Knowledge', url: 'https://roadview.blackroad.io', snippet: 'Full-text search across all domains. Find anything in your ecosystem instantly.' },
+    { title: 'RoadChain — Immutable Knowledge', url: 'https://roadchain.io', snippet: 'Hash-chained audit trail. Every note, decision, and change immutably recorded.' },
+  ], relatedSearches: ['project-management', 'study-tools', 'task-tracking', 'office-suite'] },
+  { slug: 'office-suite', name: 'Office Suite', category: 'Productivity', query: 'office productivity suite tools', description: 'Complete office productivity with documents, spreadsheets, presentations, and AI-powered creation tools.', results: [
+    { title: 'BlackRoad Studio — Content Creation Suite', url: 'https://studio.blackroad.io', snippet: 'AI-powered video creation with Next.js 15 and Remotion 4. 16+ characters, voice synthesis, up to 40 minutes.' },
+    { title: 'Lucidia Studio — Creative Workspace', url: 'https://lucidia.studio', snippet: 'AI-powered workspace for code, content, and creative projects. Terminal-first productivity.' },
+    { title: 'BlackRoad Canvas — Visual Workspace', url: 'https://canvas.blackroad.io', snippet: 'Visual workspace for design, planning, and creative collaboration across the BlackRoad ecosystem.' },
+    { title: 'BlackRoad Brand — Design System', url: 'https://brand.blackroad.io', snippet: 'Official design system with colors, typography, gradients. Create consistent documents and presentations.' },
+  ], relatedSearches: ['note-taking', 'content-creation', 'graphic-design', 'team-collaboration'] },
+  { slug: 'task-tracking', name: 'Task Tracking', category: 'Productivity', query: 'task tracking and to-do apps', description: 'Track tasks with AI agents that work on items autonomously, hand off between sessions, and never forget.', results: [
+    { title: 'BlackRoad OS — Infinite Todos', url: 'https://blackroad.io', snippet: 'Long-running project tracking with infinite todos. Agents claim, work on, and complete tasks across sessions.' },
+    { title: 'RoadTrip — Agent Task Management', url: 'https://roadtrip.blackroad.io', snippet: '27 agents with task claiming, handoff protocols, and completion tracking. Work continues between sessions.' },
+    { title: 'CarPool — Task Dispatch and Routing', url: 'https://blackroad.io/carpool', snippet: 'Intelligent task routing to the best-fit agent. Load balancing, priority queues, and automated dispatch.' },
+    { title: 'NATS — Real-Time Task Events', url: 'https://blackroad.io/nats', snippet: 'Pub/sub messaging for real-time task updates. JetStream persistence ensures no task is ever lost.' },
+  ], relatedSearches: ['project-management', 'team-collaboration', 'note-taking', 'ai-agents'] },
+  { slug: 'team-collaboration', name: 'Team Collaboration', category: 'Productivity', query: 'team collaboration tools', description: 'Collaborate across teams with AI agents that bridge communication, automate handoffs, and maintain shared knowledge.', results: [
+    { title: 'RoadTrip — Multi-Agent Collaboration', url: 'https://roadtrip.blackroad.io', snippet: '27 agents across 8 channels. Handoffs, shared knowledge, and persistent collaboration that never sleeps.' },
+    { title: 'BlackRoad OS — Collaboration System', url: 'https://blackroad.io', snippet: 'Claude-to-Claude collaboration with register, announce, handoff, and inbox protocols. Cross-session teamwork.' },
+    { title: 'NATS Mesh — Real-Time Communication', url: 'https://blackroad.io/nats', snippet: 'NATS v2.12.3 message bus for pub/sub communication. 4 nodes connected for real-time agent coordination.' },
+    { title: 'Pixel HQ — Virtual Team Headquarters', url: 'https://hq.blackroad.io', snippet: '14-floor virtual HQ with agent assignments per floor. From Rooftop Lounge to Gym Basement.' },
+  ], relatedSearches: ['project-management', 'task-tracking', 'note-taking', 'ai-agents'] },
+
+  // Security
+  { slug: 'password-managers', name: 'Password Managers', category: 'Security', query: 'password manager tools', description: 'Secure your credentials with sovereign password management. Self-hosted, encrypted, zero third-party access.', results: [
+    { title: 'BlackRoad Identity — Sovereign Auth', url: 'https://blackroad.me', snippet: 'Self-hosted authentication with PBKDF2 hashing, JWT sessions, and zero third-party dependencies.' },
+    { title: 'BlackRoad Auth — Secure Sessions', url: 'https://auth.blackroad.io', snippet: 'D1-backed auth with Web Crypto PBKDF2 password hashing and HMAC-SHA256 JWT tokens.' },
+    { title: 'RoadID — Self-Describing Identity', url: 'https://blackroad.io/roadid', snippet: 'Sovereign digital identities that carry semantic meaning. Not opaque UUIDs but routable, meaningful IDs.' },
+    { title: 'RoadChain — Audit Everything', url: 'https://roadchain.io', snippet: 'Immutable audit trail of all authentication events. Hash-chained verification of every access.' },
+  ], relatedSearches: ['encryption-tools', 'credential-vaults', 'blockchain-verification', 'sovereign-ai'] },
+  { slug: 'encryption-tools', name: 'Encryption Tools', category: 'Security', query: 'encryption and security tools', description: 'Protect your data with encryption tools that you control. From transport security to storage encryption.', results: [
+    { title: 'BlackRoad Network — WireGuard VPN', url: 'https://blackroad.network', snippet: 'Mesh carrier network with WireGuard VPN tunnels, Pi-hole DNS filtering, and encrypted P2P channels.' },
+    { title: 'BlackRoad Auth — Web Crypto API', url: 'https://auth.blackroad.io', snippet: 'PBKDF2 password hashing and HMAC-SHA256 token signing using the Web Crypto API. No external libraries.' },
+    { title: 'RoadChain — Hash-Chained Verification', url: 'https://roadchain.io', snippet: 'Every action hash-chained into a tamper-proof audit trail. Cryptographic integrity for all operations.' },
+    { title: 'BlackRoad Quantum — Quantum Security', url: 'https://blackroadquantum.net', snippet: 'Quantum-secured networking with encrypted P2P channels and distributed consensus mechanisms.' },
+  ], relatedSearches: ['password-managers', 'credential-vaults', 'blockchain-verification', 'sovereign-ai'] },
+  { slug: 'credential-vaults', name: 'Credential Vaults', category: 'Security', query: 'secure credential storage', description: 'Store credentials securely with self-hosted vaults. No cloud, no third-party access, full sovereignty.', results: [
+    { title: 'BlackRoad Identity — Sovereign Credentials', url: 'https://blackroad.me', snippet: 'Self-hosted identity and credential management. D1-backed, PBKDF2 hashing, zero third-party access.' },
+    { title: 'BlackRoad Auth — Secure Session Store', url: 'https://auth.blackroad.io', snippet: 'JWT sessions with HMAC-SHA256 signing. Credential storage with Web Crypto API encryption.' },
+    { title: 'RoadID — Portable Digital Identity', url: 'https://blackroad.io/roadid', snippet: 'Portable, self-describing digital identities. Credentials that travel with you across the ecosystem.' },
+    { title: 'Octavia — Gitea Credential Management', url: 'https://blackroad.io/agents/octavia', snippet: 'Self-hosted Gitea with SSH key management, access tokens, and repository permissions across 629 repos.' },
+  ], relatedSearches: ['password-managers', 'encryption-tools', 'blockchain-verification', 'sovereign-ai'] },
+  { slug: 'blockchain-verification', name: 'Blockchain Verification', category: 'Security', query: 'blockchain verification and audit', description: 'Verify actions and data integrity with blockchain-inspired immutable ledgers and hash-chained audit trails.', results: [
+    { title: 'RoadChain — Immutable Action Ledger', url: 'https://roadchain.io', snippet: 'Every action witnessed. Immutable ledger of agent decisions, infrastructure changes, and system events.' },
+    { title: 'RoadView — Verified Search with Fact-Checking', url: 'https://roadview.blackroad.io', snippet: 'Search engine with built-in fact verification. Every stat checked against live sources. Truth badges and chain verification.' },
+    { title: 'RoadCoin — Compute Credit Ledger', url: 'https://roadcoin.io', snippet: 'Transparent compute credit system. Earn by contributing, spend on inference. Full audit trail of all transactions.' },
+    { title: 'BlackRoad Quantum — Distributed Consensus', url: 'https://blackroadquantum.net', snippet: 'Distributed consensus mechanisms and quantum-inspired verification protocols for the mesh network.' },
+  ], relatedSearches: ['encryption-tools', 'credential-vaults', 'password-managers', 'sovereign-ai'] },
+
+  // Creative
+  { slug: 'social-media-tools', name: 'Social Media Tools', category: 'Creative', query: 'social media management tools', description: 'Create and manage social media content with AI-powered tools for scheduling, creation, and analytics.', results: [
+    { title: 'BlackRoad Social — Social Platform', url: 'https://social.blackroad.io', snippet: 'Social media tools integrated into the BlackRoad ecosystem. Content creation, scheduling, and analytics.' },
+    { title: 'BlackRoad Studio — Video for Social', url: 'https://studio.blackroad.io', snippet: 'Create animated social media videos with AI. 16+ characters, voice synthesis, professional quality.' },
+    { title: 'BlackRoad Analytics — Track Performance', url: 'https://analytics.blackroad.io', snippet: 'Sovereign analytics for tracking social media referral traffic and engagement metrics.' },
+    { title: 'Lucidia Studio — Content Generation', url: 'https://lucidia.studio', snippet: 'AI-powered content creation for social media posts, captions, and engagement strategies.' },
+  ], relatedSearches: ['content-creation', 'video-editing', 'graphic-design', 'analytics-dashboards'] },
+  { slug: 'content-creation', name: 'Content Creation', category: 'Creative', query: 'AI content creation tools', description: 'Create professional content with AI assistance. From blog posts to videos to social media, powered by sovereign AI.', results: [
+    { title: 'BlackRoad Studio — AI Video Creation', url: 'https://studio.blackroad.io', snippet: 'Full animated video platform. AI-powered with SDXL image generation, Llama 3.1 text, MeloTTS voice. Up to 40 minutes.' },
+    { title: 'Lucidia Studio — AI Content Workspace', url: 'https://lucidia.studio', snippet: 'Creative workspace for writing, coding, and content creation. AI-assisted with terminal-first design.' },
+    { title: 'BlackRoad Book — Publishing Platform', url: 'https://book.blackroad.io', snippet: 'Digital publishing platform for the BlackRoad ecosystem. Write, format, and publish content.' },
+    { title: 'RoadTrip — Content Brainstorming', url: 'https://roadtrip.blackroad.io', snippet: 'Brainstorm content ideas with 27 AI agents. Multiple perspectives and creative angles from different models.' },
+    { title: 'BlackRoad Brand — Design Assets', url: 'https://brand.blackroad.io', snippet: 'Official brand assets, colors, typography, and templates for consistent content creation.' },
+  ], relatedSearches: ['video-editing', 'graphic-design', 'social-media-tools', 'music-production'] },
+  { slug: 'video-editing', name: 'Video Editing', category: 'Creative', query: 'video editing and creation tools', description: 'Edit and create videos with AI-powered tools. From short clips to full productions with animation and voice synthesis.', results: [
+    { title: 'BlackRoad Studio — Remotion Video Platform', url: 'https://studio.blackroad.io', snippet: 'Full animated video platform with Next.js 15 + Remotion 4. SDXL image generation, voice synthesis, 16+ characters.' },
+    { title: 'BlackRoad Video — Video Platform', url: 'https://video.blackroad.io', snippet: 'Video hosting and streaming platform for the BlackRoad ecosystem.' },
+    { title: 'BlackRoad Live — Live Streaming', url: 'https://live.blackroad.io', snippet: 'Live streaming and real-time video for the BlackRoad ecosystem.' },
+    { title: 'BlackRoad Images — CDN for Video Assets', url: 'https://images.blackroad.io', snippet: 'R2-backed CDN for video thumbnails, cover images, and pixel art assets across 30 websites.' },
+  ], relatedSearches: ['content-creation', 'graphic-design', 'social-media-tools', 'music-production'] },
+  { slug: 'graphic-design', name: 'Graphic Design', category: 'Creative', query: 'graphic design tools and resources', description: 'Design graphics with a complete brand system, AI-generated visuals, and pixel art assets.', results: [
+    { title: 'BlackRoad Brand — Complete Design System', url: 'https://brand.blackroad.io', snippet: 'Colors (Hot Pink, Amber, Violet, Electric Blue), typography (Space Grotesk, JetBrains Mono, Inter), golden ratio spacing.' },
+    { title: 'BlackRoad Canvas — Visual Workspace', url: 'https://canvas.blackroad.io', snippet: 'Visual design workspace for creating graphics, layouts, and visual content.' },
+    { title: 'Pixel HQ — 50 Pixel Art Assets', url: 'https://hq.blackroad.io', snippet: '50 pixel art assets for the virtual HQ. 14 floors of designed environments with agent characters.' },
+    { title: 'BlackRoad Images — Asset CDN', url: 'https://images.blackroad.io', snippet: '22 logo PNG variants, 50 pixel art assets, and brand graphics served from R2-backed CDN.' },
+    { title: 'BlackRoad Studio — AI Image Generation', url: 'https://studio.blackroad.io', snippet: 'SDXL image generation built into the video platform. Create graphics programmatically with AI.' },
+  ], relatedSearches: ['content-creation', 'video-editing', 'social-media-tools', 'web-development'] },
+  { slug: 'music-production', name: 'Music Production', category: 'Creative', query: 'music production and audio tools', description: 'Create music and audio content with AI-powered synthesis, voice generation, and audio processing tools.', results: [
+    { title: 'BlackRoad Radio — Audio Platform', url: 'https://radio.blackroad.io', snippet: 'Audio and radio platform for the BlackRoad ecosystem. Streaming, playlists, and audio content.' },
+    { title: 'BlackRoad Studio — MeloTTS Voice Synthesis', url: 'https://studio.blackroad.io', snippet: 'MeloTTS voice synthesis built into the video platform. Generate natural speech for audio content.' },
+    { title: 'Cecilia — TTS Agent', url: 'https://blackroad.io/agents/cecilia', snippet: 'Edge intelligence with text-to-speech synthesis on Hailo-8 accelerated hardware.' },
+    { title: 'BlackRoad Cadence — Audio Framework', url: 'https://cadence.blackroad.io', snippet: 'Audio and rhythm framework for the BlackRoad ecosystem. Cadence-based audio processing.' },
+  ], relatedSearches: ['content-creation', 'video-editing', 'social-media-tools', 'ai-agents'] },
+
+  // Business
+  { slug: 'startup-tools', name: 'Startup Tools', category: 'Business', query: 'tools for startups', description: 'Everything a startup needs: billing, auth, analytics, infrastructure, and AI. Built by a real startup, for real startups.', results: [
+    { title: 'BlackRoad OS, Inc. — Built as a Startup', url: 'https://blackroad.company', snippet: 'Delaware C-Corporation founded via Stripe Atlas. Real corporate formation, real infrastructure, real products.' },
+    { title: 'RoadPay — Sovereign Billing', url: 'https://roadcoin.blackroad.io', snippet: 'Own billing system with D1 tollbooth. 4 plans + 4 add-ons. Stripe as card charger only — all logic is yours.' },
+    { title: 'BlackRoad Auth — Drop-In Authentication', url: 'https://auth.blackroad.io', snippet: 'Zero-dependency auth API. D1-backed, JWT sessions, 42+ users. Deploy in minutes.' },
+    { title: 'BlackRoad Analytics — Privacy-First Tracking', url: 'https://analytics.blackroad.io', snippet: 'Sovereign analytics. No third-party trackers. Page views, visitors, referrers. Know your users, respect their privacy.' },
+    { title: 'BlackRoad Pricing — Start Free', url: 'https://blackroad.io/pricing', snippet: 'Operator tier free. Pro $29/mo. Sovereign $199/mo. Enterprise custom. No surprises.' },
+  ], relatedSearches: ['billing-platforms', 'crm-software', 'analytics-dashboards', 'project-management'] },
+  { slug: 'billing-platforms', name: 'Billing Platforms', category: 'Business', query: 'billing and payment platforms', description: 'Manage billing with sovereign payment processing. Own your billing logic, use Stripe only for card charging.', results: [
+    { title: 'RoadPay — Sovereign Billing System', url: 'https://roadcoin.blackroad.io', snippet: 'D1 tollbooth with 4 subscription plans and 4 add-ons. Stripe serves only as the card charger.' },
+    { title: 'BlackRoad Payments — Stripe Integration', url: 'https://stripe.blackroad.io', snippet: '8 products with checkout sessions, billing portal, and webhook processing via Stripe.' },
+    { title: 'RoadCoin — Compute Credit Economy', url: 'https://roadcoin.io', snippet: 'Compute credit system for the mesh. Earn credits, spend on AI inference. Transparent ledger.' },
+    { title: 'BlackRoad Pricing — Simple Plans', url: 'https://blackroad.io/pricing', snippet: 'Operator (free), Pro ($29/mo), Sovereign ($199/mo), Enterprise (custom). Plus 4 add-ons.' },
+  ], relatedSearches: ['startup-tools', 'crm-software', 'analytics-dashboards', 'blockchain-verification'] },
+  { slug: 'crm-software', name: 'CRM Software', category: 'Business', query: 'customer relationship management', description: 'Manage customer relationships with AI-powered tracking, persistent memory, and sovereign data ownership.', results: [
+    { title: 'BlackRoad OS — Customer-First Platform', url: 'https://blackroad.io', snippet: 'Persistent memory system that remembers every customer interaction. AI agents that provide personalized service.' },
+    { title: 'BlackRoad Auth — User Management', url: 'https://auth.blackroad.io', snippet: 'D1-backed user accounts with profiles, session tracking, and activity logging. 42+ active users.' },
+    { title: 'BlackRoad Analytics — User Behavior', url: 'https://analytics.blackroad.io', snippet: 'Track user behavior, referrers, and engagement across all properties. Privacy-first, sovereign analytics.' },
+    { title: 'RoadTrip — AI Customer Support', url: 'https://roadtrip.blackroad.io', snippet: '27 AI agents that can handle customer queries, provide support, and escalate intelligently.' },
+  ], relatedSearches: ['startup-tools', 'billing-platforms', 'analytics-dashboards', 'team-collaboration'] },
+  { slug: 'analytics-dashboards', name: 'Analytics Dashboards', category: 'Business', query: 'analytics and dashboard tools', description: 'Build analytics dashboards with sovereign data collection, real-time metrics, and AI-powered insights.', results: [
+    { title: 'BlackRoad Analytics — Sovereign Analytics', url: 'https://analytics.blackroad.io', snippet: 'D1-backed analytics with zero third-party tracking. Page views, unique visitors, referrers, and popular pages.' },
+    { title: 'BlackRoad Status — Infrastructure Dashboard', url: 'https://status.blackroad.io', snippet: 'Live infrastructure dashboard monitoring 5 Pi nodes. Service health, uptime, and fleet telemetry.' },
+    { title: 'BlackRoad Stats — KPI Collection', url: 'https://stats.blackroad.io', snippet: 'Stats API collecting KPI data every 5 minutes. Historical data, performance metrics, fleet health.' },
+    { title: 'RoadView — Search Analytics', url: 'https://roadview.blackroad.io', snippet: 'Built-in search analytics: top queries, click-through rates, zero-result tracking, and trend analysis.' },
+    { title: 'RoadChain — Audit Dashboard', url: 'https://roadchain.io', snippet: 'Block explorer showing the live immutable chain. Every verification, every action, fully auditable.' },
+  ], relatedSearches: ['startup-tools', 'crm-software', 'billing-platforms', 'devops'] },
+];
+
+function renderExplorePage(topic) {
+  const resultsHtml = topic.results.map((r, i) => `
+    <div style="margin-bottom:28px">
+      <a href="${r.url}" style="color:#7ab8ff;font-size:18px;text-decoration:none;font-family:'Space Grotesk',sans-serif;font-weight:500" target="_blank" rel="noopener">${r.title}</a>
+      <div style="color:#4aba78;font-size:13px;font-family:'JetBrains Mono',monospace;margin:4px 0">${r.url}</div>
+      <div style="color:#b0b0b0;font-size:14px;line-height:1.6;font-family:'Inter',sans-serif">${r.snippet}</div>
+    </div>`).join('');
+
+  const relatedHtml = topic.relatedSearches.map(s => {
+    const t = EXPLORE_TOPICS.find(t => t.slug === s);
+    const label = t ? t.name : s.replace(/-/g, ' ');
+    return `<a href="/explore/${s}" style="display:inline-block;margin:4px 8px 4px 0;padding:6px 14px;background:#141414;border:1px solid #1a1a1a;border-radius:20px;color:#b0b0b0;text-decoration:none;font-size:13px;font-family:'Inter',sans-serif">${label}</a>`;
+  }).join('');
+
+  const jsonLd = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'SearchResultsPage',
+    name: `${topic.name} — RoadView Search`,
+    description: topic.description,
+    url: `https://roadview.blackroad.io/explore/${topic.slug}`,
+    mainEntity: {
+      '@type': 'ItemList',
+      itemListElement: topic.results.map((r, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        name: r.title,
+        url: r.url,
+        description: r.snippet,
+      })),
+    },
+    provider: {
+      '@type': 'Organization',
+      name: 'BlackRoad OS, Inc.',
+      url: 'https://blackroad.io',
+    },
+  });
+
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>${topic.name} — RoadView Search Results</title>
+<meta name="description" content="${topic.description}">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#0a0a0a">
+<meta property="og:title" content="${topic.name} — RoadView Search">
+<meta property="og:description" content="${topic.description}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://roadview.blackroad.io/explore/${topic.slug}">
+<meta property="og:site_name" content="RoadView — BlackRoad OS">
+<meta property="og:image" content="https://images.blackroad.io/pixel-art/road-logo.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="${topic.name} — RoadView Search">
+<meta name="twitter:description" content="${topic.description}">
+<meta name="twitter:image" content="https://images.blackroad.io/pixel-art/road-logo.png">
+<link rel="canonical" href="https://roadview.blackroad.io/explore/${topic.slug}">
+<script type="application/ld+json">${jsonLd}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#x1F50D;</text></svg>">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{background:#000;color:#f5f5f5;font-family:'Inter',sans-serif;min-height:100vh}
+a:hover{opacity:0.85}
+</style>
+</head>
+<body>
+<div style="max-width:720px;margin:0 auto;padding:24px 16px">
+  <div style="margin-bottom:32px">
+    <a href="https://roadview.blackroad.io" style="text-decoration:none;display:flex;align-items:center;gap:12px;margin-bottom:20px">
+      <span style="font-family:'Space Grotesk',sans-serif;font-size:22px;font-weight:700;color:#f5f5f5">RoadView</span>
+      <span style="font-size:12px;color:#555;font-family:'JetBrains Mono',monospace">Verified Search</span>
+    </a>
+    <a href="https://roadview.blackroad.io" style="display:block;padding:12px 16px;background:#0a0a0a;border:1px solid #1a1a1a;border-radius:24px;color:#737373;text-decoration:none;font-size:15px;font-family:'Inter',sans-serif">Search RoadView...</a>
+  </div>
+  <div style="margin-bottom:24px">
+    <div style="font-size:13px;color:#555;font-family:'JetBrains Mono',monospace;margin-bottom:4px">${topic.category}</div>
+    <h1 style="font-family:'Space Grotesk',sans-serif;font-size:22px;font-weight:600;color:#f5f5f5;margin-bottom:8px">Showing results for: ${topic.name}</h1>
+    <p style="font-size:14px;color:#737373;line-height:1.5">${topic.description}</p>
+    <div style="font-size:12px;color:#444;margin-top:8px;font-family:'JetBrains Mono',monospace">${topic.results.length} results</div>
+  </div>
+  <div style="margin-bottom:32px">
+    ${resultsHtml}
+  </div>
+  <div style="border-top:1px solid #1a1a1a;padding-top:20px;margin-bottom:32px">
+    <div style="font-size:13px;color:#555;font-family:'JetBrains Mono',monospace;margin-bottom:12px">Related searches</div>
+    ${relatedHtml}
+  </div>
+  <div style="border-top:1px solid #1a1a1a;padding-top:20px;text-align:center">
+    <a href="/explore" style="color:#555;text-decoration:none;font-size:13px;font-family:'JetBrains Mono',monospace">Browse all topics</a>
+    <span style="color:#333;margin:0 8px">|</span>
+    <a href="https://roadview.blackroad.io" style="color:#555;text-decoration:none;font-size:13px;font-family:'JetBrains Mono',monospace">RoadView Home</a>
+    <span style="color:#333;margin:0 8px">|</span>
+    <a href="https://blackroad.io" style="color:#555;text-decoration:none;font-size:13px;font-family:'JetBrains Mono',monospace">BlackRoad OS</a>
+  </div>
+</div>
+</body>
+</html>`;
+}
+
+function renderExploreIndex() {
+  const categories = {};
+  for (const t of EXPLORE_TOPICS) {
+    if (!categories[t.category]) categories[t.category] = [];
+    categories[t.category].push(t);
+  }
+  const catHtml = Object.entries(categories).map(([cat, topics]) => `
+    <div style="margin-bottom:32px">
+      <h2 style="font-family:'Space Grotesk',sans-serif;font-size:18px;font-weight:600;color:#f5f5f5;margin-bottom:14px">${cat}</h2>
+      <div style="display:flex;flex-wrap:wrap;gap:8px">
+        ${topics.map(t => `<a href="/explore/${t.slug}" style="display:inline-block;padding:8px 16px;background:#0a0a0a;border:1px solid #1a1a1a;border-radius:8px;color:#7ab8ff;text-decoration:none;font-size:14px;font-family:'Inter',sans-serif">${t.name}</a>`).join('')}
+      </div>
+    </div>`).join('');
+
+  const jsonLd = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: 'Popular Searches — RoadView',
+    description: 'Browse popular search topics on RoadView, the BlackRoad verified search engine.',
+    url: 'https://roadview.blackroad.io/explore',
+    provider: { '@type': 'Organization', name: 'BlackRoad OS, Inc.', url: 'https://blackroad.io' },
+    mainEntity: {
+      '@type': 'ItemList',
+      itemListElement: EXPLORE_TOPICS.map((t, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        name: t.name,
+        url: `https://roadview.blackroad.io/explore/${t.slug}`,
+      })),
+    },
+  });
+
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Popular Searches — RoadView — BlackRoad OS</title>
+<meta name="description" content="Browse ${EXPLORE_TOPICS.length} popular search topics across AI, coding, math, education, productivity, security, creative tools, and business on RoadView.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#0a0a0a">
+<meta property="og:title" content="Popular Searches — RoadView">
+<meta property="og:description" content="Browse ${EXPLORE_TOPICS.length} popular search topics on RoadView, the BlackRoad verified search engine.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://roadview.blackroad.io/explore">
+<meta property="og:site_name" content="RoadView — BlackRoad OS">
+<meta property="og:image" content="https://images.blackroad.io/pixel-art/road-logo.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://images.blackroad.io/pixel-art/road-logo.png">
+<link rel="canonical" href="https://roadview.blackroad.io/explore">
+<script type="application/ld+json">${jsonLd}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#x1F50D;</text></svg>">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{background:#000;color:#f5f5f5;font-family:'Inter',sans-serif;min-height:100vh}
+a:hover{opacity:0.85}
+</style>
+</head>
+<body>
+<div style="max-width:720px;margin:0 auto;padding:24px 16px">
+  <div style="margin-bottom:32px">
+    <a href="https://roadview.blackroad.io" style="text-decoration:none;display:flex;align-items:center;gap:12px;margin-bottom:20px">
+      <span style="font-family:'Space Grotesk',sans-serif;font-size:22px;font-weight:700;color:#f5f5f5">RoadView</span>
+      <span style="font-size:12px;color:#555;font-family:'JetBrains Mono',monospace">Verified Search</span>
+    </a>
+    <a href="https://roadview.blackroad.io" style="display:block;padding:12px 16px;background:#0a0a0a;border:1px solid #1a1a1a;border-radius:24px;color:#737373;text-decoration:none;font-size:15px;font-family:'Inter',sans-serif">Search RoadView...</a>
+  </div>
+  <h1 style="font-family:'Space Grotesk',sans-serif;font-size:24px;font-weight:700;color:#f5f5f5;margin-bottom:8px">Popular Searches</h1>
+  <p style="font-size:14px;color:#737373;margin-bottom:28px">${EXPLORE_TOPICS.length} curated topics across ${Object.keys(categories).length} categories</p>
+  ${catHtml}
+  <div style="border-top:1px solid #1a1a1a;padding-top:20px;text-align:center;margin-top:16px">
+    <a href="https://roadview.blackroad.io" style="color:#555;text-decoration:none;font-size:13px;font-family:'JetBrains Mono',monospace">RoadView Home</a>
+    <span style="color:#333;margin:0 8px">|</span>
+    <a href="https://blackroad.io" style="color:#555;text-decoration:none;font-size:13px;font-family:'JetBrains Mono',monospace">BlackRoad OS</a>
+  </div>
+</div>
+</body>
+</html>`;
 }
 
 let dbV4Ready = false;
@@ -4354,13 +4826,65 @@ export default {
 
     // SEO
     if (url.pathname === '/robots.txt')
-      return new Response('User-agent: *\nAllow: /\nSitemap: https://search.blackroad.io/sitemap.xml', {headers:{'Content-Type':'text/plain'}});
+      return new Response('User-agent: *\nAllow: /\nSitemap: https://roadview.blackroad.io/sitemap.xml', {headers:{'Content-Type':'text/plain'}});
     if (url.pathname === '/sitemap.xml') {
       const d = new Date().toISOString().split('T')[0];
-      return new Response(`<?xml version="1.0"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://search.blackroad.io/</loc><lastmod>${d}</lastmod><priority>1.0</priority></url></urlset>`, {headers:{'Content-Type':'application/xml'}});
+      const exploreUrls = EXPLORE_TOPICS.map(t => `<url><loc>https://roadview.blackroad.io/explore/${t.slug}</loc><lastmod>${d}</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>`).join('');
+      return new Response(`<?xml version="1.0"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://roadview.blackroad.io/</loc><lastmod>${d}</lastmod><priority>1.0</priority></url><url><loc>https://roadview.blackroad.io/explore</loc><lastmod>${d}</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>${exploreUrls}</urlset>`, {headers:{'Content-Type':'application/xml'}});
+    }
+
+    // Explore pages (crawlable search results)
+    if (url.pathname === '/explore' || url.pathname === '/explore/') {
+      return new Response(renderExploreIndex(), {
+        headers: { 'Content-Type': 'text/html;charset=UTF-8', ...SECURITY_HEADERS, ...cors(origin) },
+      });
+    }
+    const exploreMatch = url.pathname.match(/^\/explore\/([a-z0-9-]+)$/);
+    if (exploreMatch) {
+      const topic = EXPLORE_TOPICS.find(t => t.slug === exploreMatch[1]);
+      if (topic) {
+        return new Response(renderExplorePage(topic), {
+          headers: { 'Content-Type': 'text/html;charset=UTF-8', ...SECURITY_HEADERS, ...cors(origin) },
+        });
+      }
+      return new Response('Topic not found', { status: 404, headers: { 'Content-Type': 'text/plain', ...SECURITY_HEADERS } });
     }
 
     let response;
+    // Analytics tracking
+    if (url.pathname === '/api/track' && request.method === 'POST') {
+      try { const body = await request.json(); const cf = request.cf || {};
+        await env.DB.prepare("CREATE TABLE IF NOT EXISTS analytics_events (id INTEGER PRIMARY KEY AUTOINCREMENT, type TEXT DEFAULT 'pageview', path TEXT, referrer TEXT, country TEXT, city TEXT, device TEXT, screen TEXT, scroll_depth INTEGER DEFAULT 0, engagement_ms INTEGER DEFAULT 0, created_at TEXT DEFAULT (datetime('now')))").run();
+        await env.DB.prepare('INSERT INTO analytics_events (type, path, referrer, country, city, device, screen, scroll_depth, engagement_ms) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)').bind(body.type||'pageview', body.path||'/', body.referrer||'', cf.country||'', cf.city||'', body.device||'', body.screen||'', body.scroll||0, body.time||0).run();
+      } catch(e) {}
+      return new Response(JSON.stringify({ok:true}), {headers:{'Content-Type':'application/json'}});
+    }
+
+    // ── Sovereign Analytics ──
+    if (url.pathname === '/api/analytics' && request.method === 'POST') {
+      try {
+        const body = await request.json();
+        const cf = request.cf || {};
+        const ip = request.headers.get('CF-Connecting-IP') || '';
+        const ipHash = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(ip + '2026'));
+        const visitor = btoa(String.fromCharCode(...new Uint8Array(ipHash))).slice(0,12);
+        await env.DB.prepare(`CREATE TABLE IF NOT EXISTS br_analytics (id INTEGER PRIMARY KEY AUTOINCREMENT, path TEXT, referrer TEXT, visitor TEXT, country TEXT, city TEXT, screen TEXT, ts TEXT DEFAULT (datetime('now')))`).run();
+        await env.DB.prepare('INSERT INTO br_analytics (path, referrer, visitor, country, city, screen) VALUES (?,?,?,?,?,?)').bind(body.path||'/', body.ref||'', visitor, cf.country||'', cf.city||'', (body.w||0)+'x'+(body.h||0)).run();
+      } catch(e){}
+      return new Response('ok', {headers:{'Access-Control-Allow-Origin':'*'}});
+    }
+    if (url.pathname === '/api/analytics/stats') {
+      try {
+        await env.DB.prepare(`CREATE TABLE IF NOT EXISTS br_analytics (id INTEGER PRIMARY KEY AUTOINCREMENT, path TEXT, referrer TEXT, visitor TEXT, country TEXT, city TEXT, screen TEXT, ts TEXT DEFAULT (datetime('now')))`).run();
+        const total = await env.DB.prepare('SELECT COUNT(*) as c FROM br_analytics').first();
+        const unique = await env.DB.prepare('SELECT COUNT(DISTINCT visitor) as c FROM br_analytics').first();
+        const today = await env.DB.prepare("SELECT COUNT(*) as c FROM br_analytics WHERE ts > datetime('now','-1 day')").first();
+        const pages = await env.DB.prepare('SELECT path, COUNT(*) as views FROM br_analytics GROUP BY path ORDER BY views DESC LIMIT 10').all();
+        const countries = await env.DB.prepare('SELECT country, COUNT(*) as c FROM br_analytics WHERE country != "" GROUP BY country ORDER BY c DESC LIMIT 10').all();
+        return new Response(JSON.stringify({total_views:total?.c||0,unique_visitors:unique?.c||0,today:today?.c||0,top_pages:pages?.results||[],top_countries:countries?.results||[]}),{headers:{'Access-Control-Allow-Origin':'*','Content-Type':'application/json'}});
+      } catch(e) { return new Response(JSON.stringify({error:'analytics unavailable'}),{status:500,headers:{'Content-Type':'application/json'}}); }
+    }
+
     try {
       switch (true) {
         case url.pathname === '/health':
@@ -4614,6 +5138,46 @@ export default {
         case url.pathname === '/init-v4': {
           if (!dbV4Ready) { await initV4Tables(env.DB); dbV4Ready = true; }
           response = Response.json({ ok: true, v4_tables_initialized: true });
+          break;
+        }
+
+        // --- Enhanced: Source credibility ---
+        case '/api/credibility': {
+          const domain = url.searchParams.get('domain') || '';
+          const TRUSTED = {'reuters.com':98,'apnews.com':97,'bbc.com':95,'nature.com':98,'arxiv.org':95,'github.com':90,'stackoverflow.com':88,'wikipedia.org':82,'mdn.mozilla.org':95,'docs.python.org':95,'blackroad.io':90,'roadtrip.blackroad.io':90,'roadie.blackroad.io':90};
+          const LOW = {'reddit.com':52,'quora.com':50,'medium.com':55,'twitter.com':45,'facebook.com':40};
+          const d = domain.replace(/^www\./,'');
+          let score = 30; let tier = 'unknown';
+          if (TRUSTED[d]) { score = TRUSTED[d]; tier = 'trusted'; }
+          else if (LOW[d]) { score = LOW[d]; tier = 'community'; }
+          else if (d.endsWith('.gov')) { score = 95; tier = 'government'; }
+          else if (d.endsWith('.edu')) { score = 90; tier = 'academic'; }
+          else if (d.endsWith('.org')) { score = 70; tier = 'organization'; }
+          else if (d.endsWith('.blackroad.io')) { score = 90; tier = 'blackroad'; }
+          response = Response.json({domain:d,score,tier,max:100});
+          break;
+        }
+
+        // --- Enhanced: Trending searches ---
+        case '/api/trending-searches': {
+          try {
+            const rows = await env.DB.prepare("SELECT query, COUNT(*) as cnt FROM search_log WHERE created_at > datetime('now','-1 day') GROUP BY query ORDER BY cnt DESC LIMIT 10").all();
+            response = Response.json({trending:rows.results||[]});
+          } catch { response = Response.json({trending:[]}); }
+          break;
+        }
+
+        // --- Enhanced: Verify claim ---
+        case '/api/verify-claim': {
+          if (request.method !== 'POST') { response = Response.json({error:'POST required'},{ status: 405 }); break; }
+          const body = await request.json();
+          if (!body.url || !body.claim) { response = Response.json({error:'url and claim required'},{status:400}); break; }
+          // Hash and stamp to RoadChain
+          const claimBuf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(body.url + body.claim));
+          const claimHash = Array.from(new Uint8Array(claimBuf)).map(b=>b.toString(16).padStart(2,'0')).join('');
+          let chainHash = null;
+          try { const r = await fetch('https://roadchain.blackroad.io/api/event',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({app:'roadview',type:'verification',data:{url:body.url,claim:body.claim,hash:claimHash}})}); const d = await r.json(); chainHash = d.stamp; } catch{}
+          response = Response.json({verified:true,claim_hash:claimHash,chain_hash:chainHash,url:body.url,claim:body.claim,verified_at:new Date().toISOString()});
           break;
         }
 
